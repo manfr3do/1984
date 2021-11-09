@@ -1,1 +1,3 @@
 Winston trifft Julia im gemieteten Zimmer von Mr. Charrington. Er hat schon länger darüber nachgedacht, Julia als Verräterin an Ingsoc auszuliefern, um in der Gunst der Party aufzusteigen. 
+
+-- Würfeln
