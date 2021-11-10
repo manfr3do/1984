@@ -1,0 +1,59 @@
+PART 2 
+>>>Suddenly his heart seemed to turn to ice and his bowels to water.
+ A figure in blue overalls was coming down
+ the pavement, not ten metres away. It was the girl from the
+ Fiction Department, the girl with dark hair. The light was
+ failing, but there was no difficulty in recognizing her. She
+ looked him straight in the face, then walked quickly on as
+ though she had not seen him.
+ For a few seconds Winston was too paralysed to move.
+ Then he turned to the right and walked heavily away, not
+ noticing for the moment that he was going in the wrong
+ direction. At any rate, one question was settled. There was
+ no doubting any longer that the girl was spying on him. She
+ must have followed him here, because it was not credible
+ that by pure chance she should have happened to be walking 
+ on the same evening up the same obscure backstreet,
+ kilometres distant from any quarter where Party members
+ lived. It was too great a coincidence. Whether she was really
+ an agent of the Thought Police, or simply an amateur spy
+ actuated by officiousness, hardly mattered. It was enough
+ that she was watching him. Probably she had seen him go
+ into the pub as well.
+ It was an effort to walk. The lump of glass in his pocket
+ banged against his thigh at each step, and he was half minded 
+ to take it out and throw it away. The worst thing was the
+ pain in his belly. For a couple of minutes he had the feeling
+ that he would die if he did not reach a lavatory soon. But
+ there would be no public lavatories in a quarter like this.
+ Then the spasm passed, leaving a dull ache behind.
+ for several seconds wondering vaguely what to do, then
+ turned round and began to retrace his steps. As he turned
+ it occurred to him that the girl had only passed him three
+ minutes ago and that by running he could probably catch
+ up with her. He could keep on her track till they were in
+ some quiet place, and then smash her skull in with a cobblestone.
+ The piece of glass in his pocket would be heavy
+ enough for the job. But he abandoned the idea immediately,
+ because even the thought of making any physical effort was
+ unbearable. He could not run, he could not strike a blow.
+ Besides, she was young and lusty and would defend herself:::Page 127/128
+<<<Question: should Winston smash her skull with the with the pice of glas, or should he walk futher?
+             (Smash/Walk)   
+SSSSSmash 1 traitorpoint : If he smashed her skull, Winston have to run away. He run a few blocks
+                          and hide in a dark alley. his heart races, has anyone seen him?
+                          when the thought police find the woman, it's over. 
+SSSSQuestion : Winston has wait a bit, he should walk home.
+              (You have to go home)
+              While you go home, the dead women was found by the thought police...
+              they found a piece of glass near the dead body, and asked people in the area if they had seen anything. They also question Mr. Charrington, who recognizes the piece of glass and puts them on your trail.
+SSSSQuestion: Winston had to decide, should he try to leave the city or should he wait and see
+              what happens. (Leave/Wait)
+SSSSLeave :   Winston try to leave London, he tries to escape by train in a risky                   
+              action during the night. The police are standing at the railroad track, your ID is checked.
+              You are caught, the thought police arrest you.
+SSSSWait :    Winston is sitting at home, he has beads of sweat on his forehead, they could show 
+              up    
+              here at any time. winstons tries to burn his diary... there is a knock at the door... knock knock thoughts police, open the door, you are under arrest. 
+
+WWWWWwalk : 
