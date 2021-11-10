@@ -38,25 +38,31 @@ PART 2
  because even the thought of making any physical effort was
  unbearable. He could not run, he could not strike a blow.
  Besides, she was young and lusty and would defend herself:::Page 127/128
+
 <<<Question:                For a few seconds Winston was too paralysed to move. should Winston 
                             smash her skull 
                             with the with the pice of glas in a blind alley, or should he walk futher?
                             (Smash/Walk)   
+
 SSSSSmash 1 traitorpoint :  He smashed her skull in the blind alley, Winston have to run away. He 
                             run 
                             a few blocks
                             and hide in a dark alley. his heart races, has anyone seen him?
                             when the thought police find the woman, it's over. 
+ 
             SSSSQuestion :  Winston has wait a bit, he should walk home.
                             (You have to go home)
                             While you go home, the dead women was found by the thought police...
                             they found a piece of glass near the dead body, and asked people in the area if they had seen anything. They also question Mr. Charrington, who recognizes the piece of glass and puts them on your trail.
+ 
             SSSSQuestion:   Winston had to decide, should he try to leave the city or should he      
                             wait and see what happens. (Leave/Wait)
+
             SSSSLeave :     Winston try to leave London, he tries to escape by train in a 
                             risky                   
                             action during the night. The police are standing at the railroad track, your ID is checked.
                             You are caught, the thought police arrest you.
+
             SSSSWait :      Winston is sitting at home, he has beads of sweat on his forehead, they  
                             could show up    
                             here at any time. winstons tries to burn his diary... there is a knock at the door... knock knock thoughts police, open the door, you are under arrest. 
@@ -93,4 +99,17 @@ WWWWWwalk 1 ComformPoint :  Winston walks futher, he turned to the right and wal
                             him was an enemy who was trying to kill him: in front of
                             him, also, was a human creature, in pain and perhaps with
                             a broken bone.
-<<<<Question :              Would Winston help her up or go futher? (Help/Futher)
+
+<<<<Question :              Would Winston help her up or go futher?
+                            (Help/Futher)
+
+HHHHHelp :                  ‘You haven’t broken anything?’
+                            ‘No, I’m all right. It hurt for a moment, that’s all.’
+                            She held out her free hand to him, and he helped her up.
+                            She had regained some of her colour, and appeared very
+                            much better.
+                            ‘It’s nothing,’ she repeated shortly. ‘I only gave my wrist a
+                            bit of a bang. Thanks, comrade!’
+                            And with that she walked on in the direction in which
+                            she had been going, as briskly as though it had really been
+                            nothing. 
