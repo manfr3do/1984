@@ -112,4 +112,51 @@ Story                       you sit down at your desk and unfold the paper.
                             he was able to think continuously.
                             It was a physical problem that had to be solved: how to
                             get in touch with the girl and arrange a meeting.
-                            
+                            You decide to speak with her in the canteen.
+                            .
+                            .
+                            .
+                            a few das later the girl is sitting alone at a table in the canteen.
+                            You ty to get over, perhaps three meters away, a voice behind you called, 'Smith', it was Wilsher.
+<<<<Question :              Do you react or do you go to the table? (React/Go the the table)
+
+GGGGGo 1 Traitor point :    You sit down at the table with the girl, In a low murmur you begin
+                            speaking. Neither of them looked up; steadily they spooned
+                            the watery stuff into their mouths, and between spoonfuls
+                            exchanged the few necessary words in low expressionless
+                            voices.
+                            ‘What time do you leave work?’
+                            ‘Eighteen-thirty.’
+                            ‘Where can we meet?’
+                            ‘Victory Square, near the monument.’
+                            ‘It’s full of telescreens.’
+                            ‘It doesn’t matter if there’s a crowd.’
+                            ‘Any signal?’
+                            ‘No. Don’t come up to me until you see me among a lot
+                             of people. And don’t look at me. Just keep somewhere near
+                             me.’
+                            ‘What time?’
+                            ‘Nineteen hours.’
+                            ‘All right.’
+
+RRRReact 1 Conform point :  you sit down with Wilsher, you two talk.
+                            The next day, you try to get to the canteen early to sit at her table.
+                            she is there and you sit down at her table.
+                            In a low murmur you begin
+                            speaking. Neither of them looked up; steadily they spooned
+                            the watery stuff into their mouths, and between spoonfuls
+                            exchanged the few necessary words in low expressionless
+                            voices.
+                            ‘What time do you leave work?’
+                            ‘Eighteen-thirty.’
+                            ‘Where can we meet?’
+                            ‘Victory Square, near the monument.’
+                            ‘It’s full of telescreens.’
+                            ‘It doesn’t matter if there’s a crowd.’
+                            ‘Any signal?’
+                            ‘No. Don’t come up to me until you see me among a lot
+                             of people. And don’t look at me. Just keep somewhere near
+                             me.’
+                            ‘What time?’
+                            ‘Nineteen hours.’
+                            ‘All right.’
