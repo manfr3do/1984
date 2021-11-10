@@ -1,43 +1,24 @@
 PART 2 
->>>Suddenly his heart seemed to turn to ice and his bowels to water.
- A figure in blue overalls was coming down
- the pavement, not ten metres away. It was the girl from the
- Fiction Department, the girl with dark hair. The light was
- failing, but there was no difficulty in recognizing her. She
- looked him straight in the face, then walked quickly on as
- though she had not seen him.
- For a few seconds Winston was too paralysed to move.
- Then he turned to the right and walked heavily away, not
- noticing for the moment that he was going in the wrong
- direction. At any rate, one question was settled. There was
- no doubting any longer that the girl was spying on him. She
- must have followed him here, because it was not credible
- that by pure chance she should have happened to be walking 
- on the same evening up the same obscure backstreet,
- kilometres distant from any quarter where Party members
- lived. It was too great a coincidence. Whether she was really
- an agent of the Thought Police, or simply an amateur spy
- actuated by officiousness, hardly mattered. It was enough
- that she was watching him. Probably she had seen him go
- into the pub as well.
- It was an effort to walk. The lump of glass in his pocket
- banged against his thigh at each step, and he was half minded 
- to take it out and throw it away. The worst thing was the
- pain in his belly. For a couple of minutes he had the feeling
- that he would die if he did not reach a lavatory soon. But
- there would be no public lavatories in a quarter like this.
- Then the spasm passed, leaving a dull ache behind.
- for several seconds wondering vaguely what to do, then
- turned round and began to retrace his steps. As he turned
- it occurred to him that the girl had only passed him three
- minutes ago and that by running he could probably catch
- up with her. He could keep on her track till they were in
- some quiet place, and then smash her skull in with a cobblestone.
- The piece of glass in his pocket would be heavy
- enough for the job. But he abandoned the idea immediately,
- because even the thought of making any physical effort was
- unbearable. He could not run, he could not strike a blow.
- Besides, she was young and lusty and would defend herself:::Page 127/128
+Story :                     A figure in blue overalls was coming down
+                            the pavement, not ten metres away. It was the girl from the
+                            Fiction Department, the girl with dark hair. The light was
+                            failing, but there was no difficulty in recognizing her. She
+                            looked him straight in the face, then walked quickly on as
+                            though she had not seen him.
+                            She must have followed him here. 
+                            Maybe she is a agent of the Thought Police, or simply an amateur spy
+                            actuated by officiousness, hardly mattered. It was enough
+                            that she was watching him. Probably she had seen him go
+                            into the pub as well.
+                            Then the spasm passed, leaving a dull ache behind.
+                            for several seconds wondering vaguely what to do, then
+                            turned round and began to retrace his steps. As he turned
+                            it occurred to him that the girl had only passed him three
+                            minutes ago and that by running he could probably catch
+                            up with her. He could keep on her track till they were in
+                            some quiet place, and then smash her skull in with a cobblestone.
+                            The piece of glass in his pocket would be heavy
+                            enough for the job.
 
 <<<Question:                For a few seconds Winston was too paralysed to move. should Winston 
                             smash her skull 
@@ -103,7 +84,7 @@ WWWWWwalk 1 ComformPoint :  Winston walks futher, he turned to the right and wal
 <<<<Question :              Would Winston help her up or go futher?
                             (Help/Futher)
 
-HHHHHelp :                  ‘You haven’t broken anything?’
+HHHHHelp 1 Conformpoint:    ‘You haven’t broken anything?’
                             ‘No, I’m all right. It hurt for a moment, that’s all.’
                             She held out her free hand to him, and he helped her up.
                             She had regained some of her colour, and appeared very
@@ -112,4 +93,23 @@ HHHHHelp :                  ‘You haven’t broken anything?’
                             bit of a bang. Thanks, comrade!’
                             And with that she walked on in the direction in which
                             she had been going, as briskly as though it had really been
-                            nothing. 
+                            nothing. in the two or three seconds while he was helping her up
+                            the girl had slipped something into his hand. She gives you a fragment of paper.
+
+FFFFFuther 1 Traitorpoint : The dark haired girls lies on the ground, her face contorts in pain.
+                            you walk down the brightly-lit corridor as if nothing had happened. you go back to your to your cubical. There ist a fragment of paper on your tabel.
+
+                            //Egal welche Entscheidung, die story verläuft gleich weiter( lediglich für traitor- oder conformpoints)
+
+Story                       you sit down at your desk and unfold the paper.
+                            On it was written, in a large unformed handwriting:
+                            I LOVE YOU.
+                            For the rest of the morning it was very difficult to work.
+                            .
+                            .
+                            .
+                            You´re home again after work, and in your bed, in the darkness, where you were safe, even from the telescreen so long as you kept silent—than 
+                            he was able to think continuously.
+                            It was a physical problem that had to be solved: how to
+                            get in touch with the girl and arrange a meeting.
+                            
