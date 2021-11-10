@@ -1,0 +1,4 @@
+//
+Punktesystem:
+- traitorPoints kann er bekommen, wenn er Entscheidungen trifft, die gegen die Regeln der Party sind.
+- conformPoints kann er bekommen, wenn er Entscheidungen trifft, die den Regeln der Party entsprechen.
