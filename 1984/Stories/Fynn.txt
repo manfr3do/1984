@@ -38,22 +38,41 @@ PART 2
  because even the thought of making any physical effort was
  unbearable. He could not run, he could not strike a blow.
  Besides, she was young and lusty and would defend herself:::Page 127/128
-<<<Question: should Winston smash her skull with the with the pice of glas, or should he walk futher?
-             (Smash/Walk)   
-SSSSSmash 1 traitorpoint : If he smashed her skull, Winston have to run away. He run a few blocks
-                          and hide in a dark alley. his heart races, has anyone seen him?
-                          when the thought police find the woman, it's over. 
-SSSSQuestion : Winston has wait a bit, he should walk home.
-              (You have to go home)
-              While you go home, the dead women was found by the thought police...
-              they found a piece of glass near the dead body, and asked people in the area if they had seen anything. They also question Mr. Charrington, who recognizes the piece of glass and puts them on your trail.
-SSSSQuestion: Winston had to decide, should he try to leave the city or should he wait and see
-              what happens. (Leave/Wait)
-SSSSLeave :   Winston try to leave London, he tries to escape by train in a risky                   
-              action during the night. The police are standing at the railroad track, your ID is checked.
-              You are caught, the thought police arrest you.
-SSSSWait :    Winston is sitting at home, he has beads of sweat on his forehead, they could show 
-              up    
-              here at any time. winstons tries to burn his diary... there is a knock at the door... knock knock thoughts police, open the door, you are under arrest. 
+<<<Question:                For a few seconds Winston was too paralysed to move. should Winston 
+                            smash her skull 
+                            with the with the pice of glas in a blind alley, or should he walk futher?
+                            (Smash/Walk)   
+SSSSSmash 1 traitorpoint :  He smashed her skull in the blind alley, Winston have to run away. He 
+                            run 
+                            a few blocks
+                            and hide in a dark alley. his heart races, has anyone seen him?
+                            when the thought police find the woman, it's over. 
+            SSSSQuestion :  Winston has wait a bit, he should walk home.
+                            (You have to go home)
+                            While you go home, the dead women was found by the thought police...
+                            they found a piece of glass near the dead body, and asked people in the area if they had seen anything. They also question Mr. Charrington, who recognizes the piece of glass and puts them on your trail.
+            SSSSQuestion:   Winston had to decide, should he try to leave the city or should he      
+                            wait and see what happens. (Leave/Wait)
+            SSSSLeave :     Winston try to leave London, he tries to escape by train in a 
+                            risky                   
+                            action during the night. The police are standing at the railroad track, your ID is checked.
+                            You are caught, the thought police arrest you.
+            SSSSWait :      Winston is sitting at home, he has beads of sweat on his forehead, they  
+                            could show up    
+                            here at any time. winstons tries to burn his diary... there is a knock at the door... knock knock thoughts police, open the door, you are under arrest. 
 
-WWWWWwalk : 
+WWWWWwalk 1 ComformPoint :  Winston walks futher, he turned to the right and walked heavily away, not
+                            noticing for the moment that he was going in the wrong
+                            direction. At any rate, one question was settled. There was
+                            no doubting any longer that the girl was spying on him. 
+                            He thought also of hurrying to the Community Centre and
+                            staying there till the place closed, so as to establish a partial
+                            alibi for the evening. But that too was impossible. A deadly
+                            lassitude had taken hold of him. All he wanted was to get
+                            home quickly and then sit down and be quiet.
+                            .
+                            .
+                            .
+                            You´re home again, you went into the kitchen and swallow nearly
+                            a teacupful of Victory Gin. You went to the tabel and took the diary out of the drawer, but you did not open it, you only stare at the cover of the book and trying without succes to shut the voice out if his consciousness.
+                            
