@@ -1,15 +1,35 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
 
 public class Game {
+	private BufferedReader input;
+	private PrintStream output;
 
-	public static void main(String[] args) {
-		
-		// Introduction
-		System.out.println("Hello player, and welcome to the dystopian world of 1984!\n");
-		System.out.println("You slip into the life of Winston Smith, a 39-years old, haggard, frail, brooding and resigned man who doubts the slogans issued by the Party and it's iconic figure, Big Brother. The story takes place in Oceania, one of the three powerblocks in the world, but precicely in Airstrip 1, which is England at the time. By now, each and everyone is living under state surveillance. The state, called Ingsoc, is watching every move you make, every word you say and perhaps every thought you have...\n");		
-		System.out.println("How will you behave in this world?");
-		System.out.println("Will you be the good party member and act accordingly, or will you...resist?");
-		System.out.println("The outcome of this game is up to you.");
-
+	// Get-Methode
+	public Game() {
+		this.input = new BufferedReader(new InputStreamReader(System.in));
+		this.output = System.out;
 	}
 
+	// Die run() Methode startet das Spiel
+	// thros IOException bedeutet, dass ein Error auftritt, wenn z.B. keine Tastatur angeschlossen ist
+	public void run() throws IOException {
+		String command = "";
+
+		// Das Spiel läuft, bis der user den Buchstaben "e" eingibt
+		while(!command.equals("e")) {
+
+			// Eingabe
+			command = this.input.readLine();
+
+			// Verarbeitung
+			String outputString = "Kommando war " + command;
+
+			// Ausgabe
+			this.output.println(outputString);
+		}
+	}
 }
+	
