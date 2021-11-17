@@ -23,6 +23,10 @@ public class Game {
 			// Eingabe
 			this.output.print("> ");
 			command = this.input.readLine();
+
+			if(command.equals("s")) {
+				start();
+			}
 			// Verarbeitung
 			String outputString = "Kommando war " + command;
 			// Ausgabe
