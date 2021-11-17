@@ -51,7 +51,12 @@ public class WinstonSmith extends Character {
 					public void setHealthPoints(int healthPoints){
 						this.healthPoints= healthPoints;
 					}
-					public void setTraitorPoints()
+					public void setTraitorPoints(int traitorPoints){
+						this.traitorPoints= traitorPoints;
+					}
+					public void setPartyPoints(int partyPoints){
+						this.partyPoints= partyPoints;
+					}
 	}//Ende Class Winston
 
 

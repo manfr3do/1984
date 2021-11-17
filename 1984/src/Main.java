@@ -9,7 +9,8 @@ public class Main {
 				WinstonSmith.setVorName("Winston");
 				WinstonSmith.setAlter(39);
 				WinstonSmith.setHealthPoints(100);
-
+				WinstonSmith.setTraitorPoints(0);
+				WinstonSmith.setPartyPoints(0);
 
         // Introduction
 		System.out.println("Hello player, and welcome to the dystopian world of 1984!\n");
