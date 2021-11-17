@@ -14,21 +14,20 @@ public class Game {
 	}
 
 	// Die run() Methode startet das Spiel
-	// thros IOException bedeutet, dass ein Error auftritt, wenn z.B. keine Tastatur angeschlossen ist
+	// throws IOException bedeutet, dass ein Error auftritt, wenn z.B. keine Tastatur angeschlossen ist
 	public void run() throws IOException {
 		String command = "";
 
 		// Das Spiel läuft, bis der user den Buchstaben "e" eingibt
-		while(!command.equals("e")) {
-
+		while(!command.equals("exit")) {
 			// Eingabe
+			this.output.print("> ");
 			command = this.input.readLine();
-
 			// Verarbeitung
 			String outputString = "Kommando war " + command;
-
 			// Ausgabe
 			this.output.println(outputString);
+			this.output.println();
 		}
 	}
 }
