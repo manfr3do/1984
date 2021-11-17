@@ -22,7 +22,7 @@ Story :                     A figure in blue overalls was coming down
 
 <<<Question:                For a few seconds Winston was too paralysed to move. should Winston 
                             smash her skull 
-                            with the with the pice of glas in a blind alley, or should he walk futher?
+                            with the pice of glas in a blind alley, or should he walk futher?
                             (Smash/Walk)   
 
 SSSSSmash 1 traitorpoint :  He smashed her skull in the blind alley, Winston have to run away. He 
@@ -160,3 +160,11 @@ RRRReact 1 Conform point :  you sit down with Wilsher, you two talk.
                             ‘What time?’
                             ‘Nineteen hours.’
                             ‘All right.’
+
+Story :                     You met at the Victory square, you both speaking in the same            
+                            expressionless voice as befor.
+                            you arrange to meet in the forest.
+                            .
+                            .
+                            .
+                            
