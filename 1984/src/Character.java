@@ -6,7 +6,6 @@ public class Character {
 				private String 	name;
 				private String 	vorName;
 
-				
 				//GETMETHOD
 				public String getName(){
 					return name;
@@ -35,6 +34,9 @@ public class WinstonSmith extends Character {
 					public int getAlter(){
 						return alter;
 					}
+					public String getKrankheiten(){
+						return krankheiten;
+					}
 					public int getHealthPoints(){
 						return healthPoints; 
 					}
@@ -47,6 +49,9 @@ public class WinstonSmith extends Character {
 					//SETMETHOD
 					public void setAlter(int alter){
 						this.alter= alter;
+					}
+					public void setKranktheiten(String krankheiten){
+						this.krankheiten= krankheiten; 
 					}
 					public void setHealthPoints(int healthPoints){
 						this.healthPoints= healthPoints;

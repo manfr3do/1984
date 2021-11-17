@@ -8,6 +8,7 @@ public class Main {
 				WinstonSmith.setName("Smith");
 				WinstonSmith.setVorName("Winston");
 				WinstonSmith.setAlter(39);
+				WinstonSmith.setKranktheiten("healty");
 				WinstonSmith.setHealthPoints(100);
 				WinstonSmith.setTraitorPoints(0);
 				WinstonSmith.setPartyPoints(0);
