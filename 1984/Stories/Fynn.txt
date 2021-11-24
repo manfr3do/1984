@@ -161,10 +161,187 @@ RRRReact 1 Conform point :  you sit down with Wilsher, you two talk.
                             ‘Nineteen hours.’
                             ‘All right.’
 
-Story :                     You met at the Victory square, you both speaking in the same            
-                            expressionless voice as befor.
+Story :                     You met at the Victory square, you both speaking 
+                            in the same expressionless voice as befor.
                             you arrange to meet in the forest.
-                            .
-                            .
-                            .
+                            .‘Can you hear me?’
+                            ‘Yes.’
+                            ‘Can you get Sunday afternoon off?’
+                            ‘Yes.’
+                            ‘Then listen carefully. You’ll have to remember this. Go to Paddington Station——’
+                            ‘Yes.’
+                            ‘You turn left, then right, then left again. And the gate’s got no top bar.’
+                            ‘Yes. What time?’
+                            ‘About fifteen. You may have to wait. I’ll get there by another way. Are you sure you remember everything?’
+                            ‘Yes.’
+                            ‘Then get away from me as quick as you can.’   .
+                            you arrange to meet in the forest.
                             
+Story :                     The way into the forest is difficult and        
+                            surrounded by many dangers. Patrols of thought police controlled the railroad climb.
+
+<<<<<Question :             When you get off the train, you run into a patrol 
+                            of thought police, you are eyed skeptically.
+                            You are asked where you want to go.
+                            you start sweating and have to come up with a spontaneous excuse.
+answer:                     (the weather is good and you want to build up 
+                            your fitness so that you are ready when the enemy attacks./i am on my way for a walk so that i can gather new strength to do my work in the ministry of truth well.)
+
+Sport 1 Traitorpoint:       the patolie lets you go. you move on towards the 
+                            meeting point.
+                            Arrived at the meeting point, you wait 20 minutes, the girl does not show up.
+                            you think about what you could do.
+answer:                     (you could look around/you keep waiting). 
+
+Sport,Look 1 Traitorpoint:        You look around, while looking around you find a 
+                            blood stain on the floor. you panic. What if the blood is the girl's, maybe they got her....?      
+                            (Out of panic you run away/You hide)
+
+Sport,Run:                  As you run around a corner, you get hit on the    
+                            head......
+                            You wake up but you can't see, they put a bag over your head. You ask if someone can hear you. BANG
+                            The Tought police didn't believe your excuse and chased you. They intercepted you, knocked you down and executed you. 
+
+Sport,hide:                 you hide behind a bush. Suddenly you feel a thud  
+                            on your head.
+                            You wake up but you can't see, they put a bag over your head. You ask if someone can hear you. BANG
+                            The Tought police didn't believe your excuse and chased you. They intercepted you, knocked you down and executed you. 
+    
+Walk 1 party point:         The tought police let you go, you go to the 
+                            meeting point and wait a bit, the girl shows up and you disappear together in the forest.
+
+Story:                      After the first meeting in the forest, you find 
+                            each other and slide straight into an illicit relationship. Her name is Julia. After a few meetings in the forest you realize that you can not always meet here, you are looking for a new shelter.
+
+<<<<<Question:              Mr.Charrington comes to your mind. you could rent 
+                            the small room above his store.(Rent Room/Further in Forest Meeting)
+
+Forest 1 Traitorpoint:      You meet again in the forest. On 
+ (Normaler Story verlauf)   the way into the 
+                            forest, you had the feeling that you were being followed, but you couldn't see anyone. Julian had the same feeling. You decide that this meeting point is too risky and rent the room above Mr. Charrington's store. (Normaler Story verlauf weiter)
+
+Rent 1 traitorpoint = 
+Normale Story:              It was a shabby little room, but it is enough   
+                            for you tow and it is safe.
+                            Through the room you can meet 6 - 7 times a month and live out your love you get to know each other well and at some point you both realize that you want more than just to work against the party through love, you want to join the rebellion against the party. The question is how to do that.
+                            .... 
+                            you don't even know if the brotherhood really exists
+                            ....
+                            The only person you can think of who could make a connection is O'brein. You don't even really know him.
+                            ....
+                            It had happend at last. The expected message had come.
+                            All your life, it seemed to him, he had been waiting for his happen.
+                            He was walking down the long corridor at the Ministry and he was almost at the spot where Julia had slipped
+                            the note into his hand when he became aware that someone larger than himself was walking just behind him. The
+                            person, whoever it was, gave a small cough, evidently as a
+                            prelude to speaking. You stopped abruptly and turned.
+                            It was O’Brien.
+
+<<<<<Question:              O'brian was part of the inner party, he approaches you about your work and asks 
+                            if you are interested in the new dictionary edition of newspeak and whether you want to pick them up at his house.               
+answer                      (You become suspicious and decline with thanks./you take the chance)
+
+decline:                    You walk further down the corridor and O'brein looks behind you, you walk       
+                            further and stand in front of a T-crossing (right/left).
+
+decline,right:              You go further down the corridor. You hear footsteps    
+                            behind you, or are they in front of you? You speed up and your heart races. 
+                            Suddenly the thought police appears in front of you.
+                            Your mistrust was justified, it is a trap. 
+                            The thought police grab you and drag you to the basement, when they drag you into a room O'brein s sitting in the room and smiling at you. 
+                            "Gotcha Smith"...
+                            You have been monitored by O'brain all this time and you are vaporized.
+
+decline,left:               You go further down the corridor. You hear footsteps    
+                            behind you, or are they in front of you? You speed up and your heart races. 
+                            Suddenly the thought police appears in front of you.
+                            Your mistrust was justified, it is a trap. 
+                            The thought police grab you and drag you to the basement, when they drag you into a room O'brein s sitting in the room and smiling at you. 
+                            "Gotcha Smith"...
+                            You have been monitored by O'brein all this time and you are vaporized.
+
+Take your chance:           
+(normaler Story verlauf)    O'brein writes you his address. you thank him and go on. After much             
+                            deliberation, you and Julia decide to go to O'Brain and ask him about the brotherhood.
+                            ....
+                            The room they were Standing in was long-shaped and softly lit.  The telescreen was dimmed to a low murmur; the
+                            richness of the dark-blue carpet gave one the impression of
+                            treading on velvet. At the far end of the room O’Brien was
+                            sitting at a table under a green-shaded lamp, with a mass of
+                            papers on either side of him.
+
+<<<<<Question:               With his characteristic gesture O’Brien resettled his spectacles on his nose.
+                            ‘Shall I say it, or will you?’ he said.
+                            ‘I will say it,’ said Winston promptly. ‘That thing is really
+                            turned off?’
+                            ‘Yes, everything is turned off. We are alone.’
+                            ‘We have come here because——’
+answer:                     (we wanted to pick up the dictionary/
+                            We believe that there is some kind of conspiracy, some
+                            kind of secret organization working against the Party, and
+                            that you are involved in it.)
+
+dictionary 1 partypoint:    You got scared and don't dare to ask what you     
+                            wanted. O'briewn looks at you a   
+                            bit questioningly, but gives you the dictionary.
+                            ....
+                            O'Brien looks at you pithily and asks again more intensely " is that all, or do you want to ask something else?"
+                            (I have a nother question/ no that's all)                    
+
+dictionary,that's all:      you say thank you and leave the house.
+                            after a few days, you sit at home and wonder why O'brein asked so explicitly if you have any other questions....
+                            Maybe he was getting at something else.
+                            There is no other possibility, O'brein must have meant the brotherhood.
+                            you decide to go to O'brein again and ask him about the brotherhood.
+                            ( story verläuft normal weiter)
+
+We belive,nother question,
+story läuft weiter:         You ask O'brein about the Brotherhood.
+                            We want to join it and work for it.
+                            We are enemies of the Party. We disbelieve in the principles
+                            of Ingsoc. We are thought-criminals. We are also adulterers. I tell you this because we want to put ourselves at your
+                            mercy. If you want us to incriminate ourselves in any other way, we are ready.’
+                            ....
+                            O'brein looks calm and sits down. In a longer conversation, he tells you about the whole rebellion. It really exists,
+                            and you are now a part of it!
+                            You will even receive Goldstein's book within the next few weeks. 
+                            A person will give it to you in public in a briefcase, just wait for the sign.
+                            ....
+                            after you get the briefcase, just like O'brein said you would, you arrange to meet julia in the little room through mr. charrington's store.
+                            
+<<<<<Question:              It is time to read the book.
+                            Goldstein's book.
+                            (Read the book/don't read the book)
+
+Answer, don't 1 pp:         Are you shure about this, that makes you a        
+                            traitor, there will be no going back. But actually it's too late anyway, you own the book and no one will believe you didn't want to read it.
+                            (Read the book/put the book back in the bag)     
+
+put the book back:          You decide not to, maybe everything I'm doing     
+                            here is wrong. You look over at Julia. 
+                            You think for a moment. 
+                            (should I stay/ or just go home like nothing ever happened).
+
+back/Stay:                  You look over at Julia for a while and then fall 
+                            asleep.(normaler Story verlauf)
+
+back/go home:               You decide to go home. While Julia is sleeping, 
+                            you secretly pack your things and leave.
+                            ....
+                            as you go home you think about the things you have done. While you are walking down the street in your mind, you don't notice that polozei is following you. As you turn into an alley, a bag is pulled over your head and you feel a thud on your head.(wachst in der Zelle wieder auf.)
+
+Read the Book:              You and julia read the book, while you read the  
+                            book you both fall asleep one after the other.
+
+Story:                      When you woke up with the sensation of having 
+                            slept for a long time, but a glance at the old-fashioned clock told him that it was only twenty-thirty. You lay dozing for a while.
+                            ....
+                            When Julia wakes up, you talk about that again. You didn't quite read it, julia even fell asleep before.
+                            ....
+                            While julia and you are talking, you came to the point that you're the dead.
+                            ‘We are the dead,’ you say.
+                            ‘We are the dead,’ echoed Julia dutifully.
+                            ‘You are the dead,’ say an iron voice behind you.
+                            They sprang apart. You entrails seemed to have turned into ice.
+                            ‘You are the dead,’ repeated the iron voice.
+                            ..../ (Seite 279 e-BOOOK)
