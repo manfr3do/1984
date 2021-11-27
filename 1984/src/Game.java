@@ -19,7 +19,19 @@ public class Game {
 		  char c = output.charAt(i);
 		  System.out.print(c);
 		  try {
-			TimeUnit.MILLISECONDS.sleep(1);
+			TimeUnit.MILLISECONDS.sleep(0);
+		  }
+		  catch (Exception e) {
+	
+		  }
+		}
+	  }
+	  public static void fastPrint(String output) {
+		for (int i = 0; i<output.length(); i++) {
+		  char c = output.charAt(i);
+		  System.out.print(c);
+		  try {
+			TimeUnit.MILLISECONDS.sleep(0);
 		  }
 		  catch (Exception e) {
 	
