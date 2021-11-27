@@ -1,38 +1,39 @@
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Game {
-	private BufferedReader input;
-	private PrintStream output;
-
-	// Get-Methode
-	public Game() {
-		this.input = new BufferedReader(new InputStreamReader(System.in));
-		this.output = System.out;
+	public static void clrscr(){
+		try {
+			if (System.getProperty("os.name").contains("Windows"))
+				new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+			else
+				Runtime.getRuntime().exec("clear");
+		} catch (IOException | InterruptedException ex) {}
 	}
-
-	// Die run() Methode startet das Spiel
-	// throws IOException bedeutet, dass ein Error auftritt, wenn z.B. keine Tastatur angeschlossen ist
-	public void run() throws IOException {
-		String command = "";
-
-		// Das Spiel läuft, bis der user den Buchstaben "e" eingibt
-		while(!command.equals("exit")) {
-			// Eingabe
-			this.output.print("> ");
-			command = this.input.readLine();
-
-			if(command.equals("s")) {
-				start();
-			}
-			// Verarbeitung
-			String outputString = "Kommando war " + command;
-			// Ausgabe
-			this.output.println(outputString);
-			this.output.println();
+	String command = "";
+	Scanner sc = new Scanner(System.in);
+			
+	public static void slowPrint(String output) {
+		for (int i = 0; i<output.length(); i++) {
+		  char c = output.charAt(i);
+		  System.out.print(c);
+		  try {
+			TimeUnit.MILLISECONDS.sleep(30);
+		  }
+		  catch (Exception e) {
+	
+		  }
 		}
+	  }
+	public void start() {
+
 	}
+
+
+
+
+
+
 }
 	
