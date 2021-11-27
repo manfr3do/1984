@@ -30,20 +30,20 @@ public class Story {
                 // First story            
                 System.out.println("You stand at the bottom of the stairs to get in your apartment.");
                 System.out.print("\n\n"); 
-                System.out.println("(1): Despite your discomfort, you silently begin the climb to the 7th floor.");
-                System.out.println("(2): You loudly rumble about the bad situation these days and the lack of electricity.\n");
+                System.out.println("(a): Despite your discomfort, you silently begin the climb to the 7th floor.");
+                System.out.println("(b): You loudly rumble about the bad situation these days and the lack of electricity.\n");
 
                 System.out.print("> ");
-                int choice = sc.nextInt();
+                String choice = sc.nextLine().toLowerCase();
 
                 switch (choice) {
-                    case 1: 
+                    case "a": 
                         // 1a -> 2
                         story = 2;
                         partyPoints++;
                     break;
 
-                    case 2:
+                    case "b":
                         // 1b -> 3
                         traitorPoints++;
                         story = 3;
@@ -56,18 +56,18 @@ public class Story {
                 System.out.print("\n");
                 System.out.println("In your apartment you feel thirsty. You take the bottle of Victory Gin, open it and fill your glass:");
                 System.out.print("\n\n"); 
-                System.out.println("(1): After one glass the spirits are awakened"); 
-                System.out.println("(2): The day was hard and the sorrow was great. You fill and empty the glass several times."); 
+                System.out.println("(a): After one glass the spirits are awakened"); 
+                System.out.println("(b): The day was hard and the sorrow was great. You fill and empty the glass several times."); 
 
                 System.out.print("> ");
-                int choice = sc.nextInt();
+                String choice = sc.nextLine();
             
                 switch (choice) {
-                    case 1: 
+                    case "a": 
                         story = 4;
                     break;
 
-                    case 2: 
+                    case "b": 
                         System.out.println("The alcohol makes you forget your caution.");
                         System.out.println("Swaying, you go to the living room, sit down at the table and take out the diary. (+TP)");
                         traitorPoints++;
@@ -85,20 +85,20 @@ public class Story {
                 System.out.println("\n");
                 System.out.println("In the moment you step into your flat, a noisy loud, croaking female voice pierces your ear and confronts you with your statements.");
                 System.out.print("\n\n"); 
-                System.out.println("\t(1): You apologize 1000 times and refer to the hard day and your old body and illness."); 
+                System.out.println("\t(a): You apologize 1000 times and refer to the hard day and your old body and illness."); 
                 System.out.println("\t     Swear that you be a good member of INGSOC, and you would love BIG BROTHER.");
-                System.out.println("\t(2): Full annoyed about the situation and the lack of privacy you put out your shoe and throw it against the Telescreen,"); 
+                System.out.println("\t(b): Full annoyed about the situation and the lack of privacy you put out your shoe and throw it against the Telescreen,"); 
                 System.out.println("\t     which shattered in 10000 pieces.\n");
 
                 System.out.print("> ");
-                int choice = sc.nextInt();
+                String choice = sc.nextLine();
 
                 switch (choice) {
-                    case 1: 
+                    case "a": 
                         story = 1;
                     break;
 
-                    case 2: 
+                    case "b": 
                         story = 2;
                     break;
                 }
@@ -108,18 +108,18 @@ public class Story {
                 System.out.println("You go back to the living room, sit down to the place in the alcove which is invisible for the telescreen and take the diary book.");     
                 System.out.println("Write the diary when someone is knocking on the door ");
                 System.out.print("\n\n"); 
-                System.out.println("(1): You open the door without think about to hide the book. ");
-                System.out.println("(2): Annoyed by the interruption, you sit still as a mouse. You heard steps away. \n");
+                System.out.println("(a): You open the door without think about to hide the book. ");
+                System.out.println("(b): Annoyed by the interruption, you sit still as a mouse. You heard steps away. \n");
 
                 System.out.print("> ");
-                int choice = sc.nextInt();
+                String choice = sc.nextLine();
 
                 switch (choice) {
-                    case 1: 
+                    case "a": 
                         story = 1;
                     break;
 
-                    case 2: 
+                    case "b": 
                         story = 2;
                     break;
                 }
@@ -136,19 +136,19 @@ public class Story {
 //     Game.clrscr();       
 //     System.out.println("<Story start>");
 //     System.out.print("\n\n"); 
-//     System.out.println("(1): ");
-//     System.out.println("(2): \n");
+//     System.out.println("(a): ");
+//     System.out.println("(b): \n");
 
 //     System.out.print("> ");
-//     int choice = sc.nextInt();
+//     String choice = sc.nextLine();
 
 //     switch (choice) {
-//         case 1: 
-//             story = 1;
+//         case "a": 
+//             story = <nr>;
 //         break;
 
-//         case 2: 
-//             story = 2;
+//         case "b": 
+//             story = <nr>;
 //         break;
 //     }
 // }

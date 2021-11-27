@@ -19,7 +19,7 @@ public class Game {
 		  char c = output.charAt(i);
 		  System.out.print(c);
 		  try {
-			TimeUnit.MILLISECONDS.sleep(30);
+			TimeUnit.MILLISECONDS.sleep(1);
 		  }
 		  catch (Exception e) {
 	
