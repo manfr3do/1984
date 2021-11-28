@@ -12,6 +12,7 @@ public class Story {
     private int ending;
     private boolean decisionA;
     private boolean decisionB;
+    private boolean decisionC;
 
     public void start() {
         // Main game loop
@@ -928,8 +929,8 @@ public class Story {
                 }
             }
             while(story == 26) {
-            if(decisionA) { 
-            	Game.clrscr(); 
+            	Game.clrscr();
+            if(decisionA) {             	 
                 System.out.println("It was a shabby little room, but it is enough for you tow and it is safe.");                                
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
@@ -1019,7 +1020,7 @@ public class Story {
 
                      case "b": 
                      	ending = 13;
-                         isGameOver = true;
+                        isGameOver = true;
                      break;
                  }
                  break;
@@ -1064,7 +1065,7 @@ public class Story {
                     break;
 
                     case "b": 
-                        story = 32;
+                        story = 30;
                     break;
                 }
             }
@@ -1094,23 +1095,95 @@ public class Story {
 
                     case "b": 
                     	decisionB = true;
+                        story = 30;
+                    break;
+                }
+            }
+            while(story == 30) {    
+            	Game.clrscr();
+            if(decisionA) { 
+                System.out.println("We want to join it and work for it. We are enemies of the Party. We disbelieve in the principles of INGSOC. We are thought criminals. "
+                		+ "We are also adulterers. I tell you this because we want to put ourselves at your mercy. "
+                		+ "If you want us to incriminate ourselves in any other way, we are ready.’");
+            } else if(decisionB) {
+            	System.out.println("you say thank you and leave the house.");            
+                System.out.println("\nPress Enter to continue");                
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("After a few days, you sit at home and wonder why O'Brien asked so explicitly if you have any other questions."); 
+                System.out.println("\nPress Enter to continue");                
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Maybe he was getting at something else. There is no other possibility, O'Brien must have meant the brotherhood."
+                		+ " You decide to go to O'Brien again and ask him about the brotherhood.");  
+                System.out.println("\nPress Enter to continue");                
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You ask O'Brien about the Brotherhood."); 
+                System.out.println("\nPress Enter to continue");                
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("We want to join it and work for it. We are enemies of the Party. We disbelieve in the principles of INGSOC. "
+                		+ "We are thought criminals. We are also adulterers. I tell you this because we want to put ourselves at your mercy. "
+                		+ "If you want us to incriminate ourselves in any other way, we are ready.’"); 
+            } else {
+            	System.out.println("You ask O'Brien about the Brotherhood");            
+                System.out.println("\nPress Enter to continue");                
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("We want to join it and work for it. We are enemies of the Party. "
+                		+ "We disbelieve in the principles of INGSOC. We are thought criminals. We are also adulterers."
+                		+ "I tell you this because we want to put ourselves at your mercy. If you want us to incriminate ourselves in any other way, we are ready.’"); 
+            }
+            	System.out.println("O'Brien looks calm and sits down. In a longer conversation, he tells you about the whole rebellion. "
+            			+ "It really exists, and you are now a part of it!");            
+            	System.out.println("\nPress Enter to continue");                
+            	System.out.print("> ");
+            	command = sc.nextLine();
+            	Game.clrscr();
+            	System.out.println("You will even receive Goldstein's book within the next few weeks. A person will give it to you in public in a briefcase, just wait for the sign."); 
+            	System.out.println("\nPress Enter to continue");                
+            	System.out.print("> ");
+            	command = sc.nextLine();
+            	Game.clrscr();
+            	System.out.println("After you get the briefcase, just like O'Brien said you would, you arrange to meet Julia in the little room through Mr. Charrington's store."); 
+            	
+            	System.out.print("\n\n"); 
+                System.out.println("It is time to read the book. Goldstein's book");
+            	
+            	System.out.print("\n\n"); 
+                System.out.println("(a): Read the book. ");
+                System.out.print("\n"); 
+                System.out.println("(b): Don´t read the book ");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":                       
+                        story = 33;
+                    break;
+
+                    case "b":                     	
                         story = 31;
                     break;
                 }
             }
-            while(story == 30) {
+            while(story == 31) {
                 Game.clrscr(); 
-                System.out.println("You got scared and don't dare to ask what you wanted. O'Brien looks at you a bit questioningly, but gives you the dictionary.");
-                System.out.println("\nPress Enter to continue");
-                System.out.print("> ");
-                command = sc.nextLine();
-                Game.clrscr();
-                System.out.println("O'Brien looks at you pithily and asks again more intensely 'is that all, or do you want to ask something else?' ");                
+                System.out.println("Are you sure about this? that makes you a traitor. There will be no going back. "
+                		+ "But actually, it's too late anyway, you own the book, and no one will believe you didn't want to read it.");                            
                                 
                 System.out.print("\n\n"); 
-                System.out.println("(a): I have another question ");
+                System.out.println("(a): Read the book ");
                 System.out.print("\n"); 
-                System.out.println("(b): no that's all ");
+                System.out.println("(b): Put the book back in the bag  ");
                 System.out.print("\n\n"); 
 
                 System.out.print("> ");
@@ -1118,22 +1191,582 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        decisionA = true;
-                        story = 30;
+                    	decisionA = true;
+                        story = 33;
+                    break;
+
+                    case "b": 
+                        story = 32;
+                    break;
+                }
+            }
+            while(story == 32) {
+                Game.clrscr(); 
+                System.out.println("AYou decide not to, maybe everything I'm doing here is wrong. You look over at Julia. You think for a moment.");                            
+                              
+                System.out.print("\n\n"); 
+                System.out.println("(a): Should I stay  ");
+                System.out.print("\n"); 
+                System.out.println("(b): Just go home like nothing ever happened ");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                    	decisionB = true;
+                        story = 33;
+                    break;
+
+                    case "b": 
+                        ending = 14;
+                        isGameOver = true;
+                    break;
+                }
+            }
+            while(story == 33) {    
+            	Game.clrscr();
+            if(decisionA) {
+            	System.out.println("You and Julia read the book, while you read the book you both fall asleep one after the other.");
+            } else if(decisionB) {
+            	 System.out.print("You look over at Julia for a while and then fall asleep."); 
+            } else {
+            	System.out.println("You and Julia read the book, while you read the book you both fall asleep one after the other.");
+            }
+                Game.clrscr(); 
+                System.out.println("When you woke up with the sensation of having slept for a long time, "
+                		+ "but a glance at the old-fashioned clock told him that it was only twenty-thirty. You lay dozing for a while.");                            
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("When Julia wakes up, you talk about that again. You didn't quite read it, Julia even fell asleep before."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("While Julia and you are talking, you came to the point that you're the dead."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("‘We are the dead,’ you say.\n"
+                		+ "‘We are the dead,’ echoed Julia dutifully.\n"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("‘You are the dead,’ say an iron voice behind you.\n"
+                		+ "They sprang apart. Your entrails seemed to have turned into ice. ‘You are the dead,’ repeat the iron voice.\n"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("‘It is behind the picture,’ breathes Julia.\n"
+                		+ "‘It is behind the picture,’ says the voice. ‘Remain exactly \n"
+                		+ "where you are. Make no movement until you are ordered.’\n");  
+                
+                System.out.print("\n\n"); 
+                System.out.println("They have discovered you and Julia. the question is what happens next. The chance of getting out of this alive is gone anyway.\n"
+                		+ "The thought of escape hangs in your mind.\n"
+                		+ "But they'll probably catch you anyway.\n");
+                System.out.print("\n\n"); 
+                System.out.println("(a): Try to escape ");
+                System.out.print("\n"); 
+                System.out.println("(b): Follow the telescreen's instructions");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":                    	
+                        story = 34;
+                    break;
+
+                    case "b": 
+                        story = 36;
+                    break;
+                }
+            }
+            while(story == 34) {
+                Game.clrscr(); 
+                System.out.println("In a short jerk you jump up from the floor and run to the window, tear it open and climb onto the roof.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("In a moment of reflection, you ask yourself whether you want to go up on the roof or try it on the ground...");                
+                                
+                System.out.print("\n\n"); 
+                System.out.println("(a): You try to climb to the roof ");
+                System.out.print("\n"); 
+                System.out.println("(b):How you should climb to the roof? It´s better to climb down ");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        story = 35;
                     break;
 
                     case "b": 
                     	decisionB = true;
-                        story = 31;
+                        story = 36;
                     break;
                 }
             }
+            while(story == 35) {
+                Game.clrscr(); 
+                System.out.println("You climb towards the roof ridge, the higher you get the more you see that the whole house is turned upside down.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You have reached the roof ridge and have to decide whether to go left or right. "
+                		+ "You can continue to walk on the roofs of the houses on either side.");                
+                                
+                System.out.print("\n\n"); 
+                System.out.println("(a): Right");
+                System.out.print("\n"); 
+                System.out.println("(b): Left");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                    	ending = 15;
+                        isGameOver = true;                        
+                    break;
+
+                    case "b": 
+                    	ending = 16;
+                        isGameOver = true;
+                    break;
+                }
+                break;
+            }
+            while(story == 36) {
+            	Game.clrscr();
+            if(decisionB) {                
+                System.out.println("you climb from the roof into the courtyard.\n"
+                		+ "Through the back door of Mr. Charrington's shop, a horde of black-uniformed men rush in and surround you.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You are grabbed and hit in the face with a club, you black out and pass out.");                
+            } else {
+            	System.out.println("‘The house is surrounded,’ says the voice.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("‘You may as well say good-bye,’ says the voice.");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("The room is full of men in black uniforms with iron shod boots on their feet and truncheons in their hands,");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("It turns out that Mr. Charrington is a member of the Thought Police and has \n"
+                		+ "been spying on you all along.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("you kneel on the floor.... Fear-stricken, you feel only a thud on the back of your head.");
+            }
+                System.out.print("\n\n");
+                System.out.print("\n\n");
+                System.out.println("\nyou don't know where you are.  You're probably in the \n"
+                		+ "the Ministry of Love, but there is no way to be\n"
+                		+ "you are in a windowless cell with high ceilings and walls of glittering white porcelain. \n"
+                		+ "Concealed lamps illuminated cold light, and a low, steady humming \n"
+                		+ "noise, which he assumed had something to do with the \n"
+                		+ "Air supply had to do with.\n"
+                		+ "");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("A bench or shelf just wide enough to sit on ran along the wall,\n"
+                		+ "interrupted only by the door, and at the end, opposite the door.\n"
+                		+ "a toilet bowl with no wooden seat. there were also\n"
+                		+ "four screens, one in each wall.\n"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Time passes, and you sit in your cell day in and day out or day in and day out? "
+                		+ "In this cell you have no sense of time, you no longer know when it's day and night, people come and go"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("When people are taken out of the cell, they often talk about Room 101.\n"
+                		+ "no one really talks about this room, but everyone is afraid of it.\n"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("After a few days or weeks, who knows, the time has come for the guards to stand outside your cell and take you to Room 101."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You roll down a long corridor until you arrive at Room 101."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Perhaps you have repressed it, but you are slowly becoming aware of what is waiting for you in Room 101."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("In Room 101, you meet O'Brien, who greets you with an expressive face."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("The last thing you remember is pain when You wake up. Your whole body hurts."
+                		+ " You don’t know how long you are arrested now and how often O´Brien had tortured you."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You lost the half of your teeth, your hair became thin and if you had to guess, you would say your weight is just around 40 Kg. "
+                		+ "Then the door opens again. A panic grows inside of you. Hands grab you roughly and pull you to your feet. Being pushed, you stagger along a corridor."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You get hold in front of a door. The door number 101. You know what is inside waiting for you. Tears running down your face. "
+                		+ "You are being pushed in, put on a chair and shackles around arms, body and legs. Then O´Brien stand next to you and asks you how much two plus two is."); 
+                
+                System.out.print("\n\n");
+                System.out.println("(a): You say that it is four. How could it be otherwise?");
+                System.out.print("\n"); 
+                System.out.println("(b): In fear of torture you scream out that it is five.");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        story = 37;
+                    break;
+
+                    case "b":
+                        story = 38;
+                    break;
+                }
+            }
+            while(story == 37) {
+                Game.clrscr(); 
+                System.out.println("Winston... Why?\n"
+                		+ "I don't want to hurt you.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("O'Brien goes to the table and comes back with a pair of tongs."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("he gleefully puts the tong on your fingernail and pulls it out"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Winston.... tell me how much is two plus two?"); 
+                                
+                System.out.print("\n\n"); 
+                System.out.println("(a): Four");
+                System.out.print("\n"); 
+                System.out.println("(b): Five");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                    	decisionA = true;
+                        story = 39;
+                    break;
+
+                    case "b": 
+                    	decisionB = true;
+                        story = 39;
+                    break;
+                }
+            }
+            while(story == 38) {
+                Game.clrscr(); 
+                System.out.println("Okay, that's right.... but do you mean what you say, or do you just say it?");
+               
+                System.out.print("\n\n"); 
+                System.out.println("(a): You mean what you say ");
+                System.out.print("\n"); 
+                System.out.println("(b): You just say it ");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        story = 39;
+                    break;
+
+                    case "b":
+                    	decisionC = true;
+                        story = 39;
+                    break;
+                }
+            }
+            while(story == 39) {
+                Game.clrscr(); 
+            if(decisionA) {
+            	 System.out.println("This is not what O’Brien wanted to hear");
+                 System.out.println("\nPress Enter to continue");
+                 System.out.print("> ");
+                 command = sc.nextLine();
+                 Game.clrscr();
+                 System.out.println("With a dirty smile, he puts the tong on your teeth and breaks them out."); 
+            } else if(decisionB) {        	
+                System.out.println("That sounds better Winston");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("We are slowly getting closer.");
+            } else if(decisionC) { 
+            	System.out.println("O’Brien hits him with a powerful blow to the nose."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("A loud crack surfs through the room and you notice warm blood dripping down your chin."); 
+            } else {
+            	System.out.println("Well, well Winston....\n"
+            			+ "you are starting to sound like a party member\n");
+            }
+            	System.out.print("\n\n"); 
+            	System.out.println("How long have we been playing this game Winston, days, weeks, months?");
+            	System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Sometimes I feel like I'm making progress with you, but you must convince me.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Do you love the party, Winston?");
+                            
+                System.out.print("\n\n"); 
+                System.out.println("(a): Yes, the party is what we need and what I love");
+                System.out.print("\n"); 
+                System.out.println("(b): No, I don't love the party.... the party must be destroying");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                    story = 40;
+                    break;
+
+                    case "b":
+                        story = 41;
+                    break;
+                }
+            }
+            while(story == 40) {
+                Game.clrscr(); 
+                System.out.println("this is what we like to hear");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("it goes ahead");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Would you die for the party Winston?");
+               
+                System.out.print("\n\n"); 
+                System.out.println("(a): Yes... I would die for the Party...");
+                System.out.print("\n"); 
+                System.out.println("(b): .... no...no I wouldn't");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                    	decisionA = true;
+                        story = 42;
+                    break;
+
+                    case "b":
+                    	ending = 17;
+                    	isGameOver = true;
+                    break;
+                }
+                break;
+            }
+            while(story == 41) {
+                Game.clrscr(); 
+                System.out.println("O'Brien grabs a scalpel");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Did you know that you can easily peel a person's skin off without them dying?"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("O'Brien cuts a corner in the skin of your thigh with the scalpel and slowly pulls a flap of your skin out of your leg."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Maybe now Winston, do you love the party?"); 
+               
+                System.out.print("\n\n"); 
+                System.out.println("(a): ...Yyyes Yeeeees... I...i love the party...");
+                System.out.print("\n"); 
+                System.out.println("(b): I don't think so, not even if I try...");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        story = 42;
+                    break;
+
+                    case "b":
+                    	ending = 18;
+                        isGameOver = true;;
+                    break;
+                }
+            }
+            while(story == 42) {
+                Game.clrscr();
+            if(decisionA) {            	            
+                System.out.println("I think we got it Winston");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You sound like a real party member to me."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("I think you are ready to work for the party again."); 
+             } else {  
+            	System.out.println("Good to hear you love the party Winston"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("I knew I could count on you"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Maybe you are ready");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("ready for reintegration into your new job for the party");
+             }
+            
+                System.out.print("\n\n"); 
+                System.out.print("They gave you a new job."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Still at the Ministry of Truth, but in a different department.");  
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You had been appointed to a sub-committee of a sub-committee which had \n"
+                		+ "sprouted from one of the innumerable committees dealing \n"
+                		+ "with minor difficulties that arose in the compilation of the \n"
+                		+ "Eleventh Edition of the Newspeak Dictionary."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("They didn't kill you, they just.... healed you. \n"
+                		+ "You were only sick before, you couldn't help it.\n"
+                		+ "But that's over now.");  
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You finally understood the meaning behind the party.");  
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You walking down the white-tiled corridor, with \n"
+                		+ "the  feeling  of  walking  in  sunlight,  and  an  armed  guard  at \n"
+                		+ "your back. ");  
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("The long-hoped-for bullet is entering your brain.\n"
+                		+ "you gazes up at the enormous face. Forty years it had tak-\n"
+                		+ "en you to learn what kind of smile was hidden beneath the \n"
+                		+ "dark  moustache.");  
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("O  cruel,  needless  misunderstanding!  O \n"
+                		+ "stubborn, self-willed exile from the loving breast!\n"
+                		+ "Two gin-scented tears trickled down the sides of your nose. But it was all right, everything was all right, the struggle was finished. \n"
+                		+ "you has won the victory over himself. You loves Big Brother");  
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("YOU LOST THE GAME!!!");            
+                                             
+               
+            }
+            
     /* 		
       		System.out.println("\nPress Enter to continue");
             System.out.print("> ");
             command = sc.nextLine();
             Game.clrscr();
-            System.out.println("The only person you can think of who could make a connection is O'brein. You don't even really know him.");        
+            System.out.println("füge den neuen text ein");        
     */      
             
     //command = sc.next();
@@ -1178,6 +1811,22 @@ public class Story {
     if(ending == 13) {
         Endings.gameOverThirteen();
     }
+    if(ending == 14) {
+        Endings.gameOverFourteen();
+    }
+    if(ending == 15) {
+        Endings.gameOverFifteen();
+    }
+    if(ending == 16) {
+        Endings.gameOverSixteen();
+    }
+    if(ending == 17) {
+        Endings.gameOverSeventeen();
+        }
+    if(ending == 18) {
+        Endings.gameOverEightteen();
+    }
+    
     } // End start()
 } // End class
 

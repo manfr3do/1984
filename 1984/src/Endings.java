@@ -4,7 +4,7 @@ public class Endings {
         System.exit(0);
     }
     public static void gameOverTwo() {
-        System.out.println("A loud BÃ„Ã„Ã„M at the door. then 5 people, all from the Thought Police, run into your flat and take position around you. A black bag over your face and a hard blow to the head. Then DARKNESS. (Game Over. The Thought Police come to get you)");
+        System.out.println("A loud BAAAAAM at the door. then 5 people, all from the Thought Police, run into your flat and take position around you. A black bag over your face and a hard blow to the head. Then DARKNESS. (Game Over. The Thought Police come to get you)");
         System.exit(0);
     }
     public static void gameOverThree() {
@@ -71,6 +71,79 @@ public class Endings {
             		+ "….\n"
             		+ "You have been monitored by O'brain all this time and now you are doomed to be vaporized.\n"
             		+ "");
+            System.exit(0);
+    }
+        public static void gameOverFourteen() {
+            System.out.println("You decide to go home. While Julia is sleeping, you secretly pack your things and leave.\n"
+            		+ "….\n"
+            		+ "as you go home you think about the things you have done. While you are walking down the street in your mind, you don't notice that police is following you. "
+            		+ "As you turn into an alley, a bag is pulled over your head and you feel a thud on your head.\n"
+            		+ "….\n"
+            		+ "Blood runs over your neck, you feel another hit.\n"
+            		+ "….\n"
+            		+ "With the last blow you hear a loud crack, and your eyes fall shut.\n"
+            		+ "");
+            System.exit(0);        
+    }
+        public static void gameOverFifteen() {
+            System.out.println("You start running as fast as you can across the roof first.\n"
+            		+ ".....\n"
+            		+ "After a few metres you step on a loose tile and slip.\n"
+            		+ "....\n"
+            		+ "you slide all the way down the roof and fall head over heels towards the ground.\n"
+            		+ "....\n"
+            		+ "you try to protect your head with your hands, but it is no use.\n"
+            		+ "....\n"
+            		+ "the last thing you hear is the crack of your skull.\n"
+            		+ "");
+            System.exit(0);        
+    }
+        public static void gameOverSixteen() {
+            System.out.println("You start to climb slowly over the roof ridge when the helicopter spots you.\n"
+            		+ "....\n"
+            		+ "you panic and start to \n"
+            		+ "run.\n"
+            		+ "....\n"
+            		+ "The wind from the helicopter knocks you off your feet and you slide down.\n"
+            		+ "....\n"
+            		+ "you slide all the way down the roof and fall head over heels towards the ground.\n"
+            		+ "....\n"
+            		+ "you try to protect your head with your hands, but it is no use.\n"
+            		+ "....\n"
+            		+ "the last thing you hear is the crack of your skull.\n"
+            		+ "");
+            System.exit(0);
+    }
+        public static void gameOverSeventeen() {
+            System.out.println("mhhh\n"
+            		+ "....\n"
+            		+ "unfortunately, this is not how it works Winston\n"
+            		+ "....\n"
+            		+ "All that work for nothing, you could have made it, but you leave me no choice.\n"
+            		+ "….\n"
+            		+ "With a swift movement, O'Brien places a wire noose around your neck.\n"
+            		+ "....\n"
+            		+ "That's it Winston.... that's it\n"
+            		+ "....\n"
+            		+ "O'Brien pulls harder and harder on the noose, you gasp for air, slowly you feel the wire cutting through the skin of your neck.\n"
+            		+ "....\n"
+            		+ "In one last gasp, you manage to say it one last time.\n"
+            		+ "....\n"
+            		+ "KILL BIG BROTHER\n");
+            System.exit(0);
+    }
+        public static void gameOverEightteen() {
+            System.out.println("poor Winston\n"
+            		+ "....\n"
+            		+ "I don't know how to make this end well\n"
+            		+ "....\n"
+            		+ "you leave me no choice\n"
+            		+ "….\n"
+            		+ "O'Brien nods to the guardian and leaves the room.\n"
+            		+ "....\n"
+            		+ "You only feel the cold steel of the gun barrel resting on the back of your head.\n"
+            		+ "....\n"
+            		+ "finally, it's over, you say with a slight smile, before you hear the click of the trigger.\n");
             System.exit(0);
     }
 }

@@ -25,18 +25,7 @@ public class Main {
 			System.exit(0);
 		}
 		// ***WORKING START CODE
-		
-
-					
-		
-		
-
-		
-
-
-
-		
-        
+		       
 		sc.close();
     }
 }
