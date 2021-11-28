@@ -128,6 +128,7 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
+                        decisionA = true;
                         story = 8;
                     break;
 
@@ -173,7 +174,8 @@ public class Story {
                 String choice = sc.nextLine();
 
                 switch (choice) {
-                    case "a": 
+                    case "a":
+                        decisionA = true; 
                         story = 8;
                     break;
 
@@ -241,13 +243,18 @@ public class Story {
                 break; 
             }
             while(story == 8) {
-                Game.clrscr();  
-                System.out.println("He feels that he has discovered a real spy.");
-                System.out.println("With a smile of admiration, he looks in your face.");
-                System.out.println("He opens his mouth to ask you 1000 questions how it would be to be a spy, how many traitors you had unmask and many more. But his mother stopped him.");
-                System.out.println("She asks you for your help to repair her kitchen sink.");
-                System.out.println("You agree and go with her in her flat.");
-                System.out.println("After work you take the way back to your apartment. (+PP)");
+                Game.clrscr();
+                if(decisionA) {
+                    System.out.println("Mrs Parson stands in front of you and asks for your help. You agree, happy that she had not notice the diary. You follow her in her flat. Something must be repaired, the kitchen sink or something else. Of course. To live in these old houses from the 1930 means to fix something very often. Because of your own experience to repair things on your own flat, you got skills and finish the work very fast. After a short talk to Mrs Parsons terrible children, you leave the apartment and go back in your own. (+ PP).");
+                }  else {
+                    System.out.println("He feels that he has discovered a real spy.");
+                    System.out.println("With a smile of admiration, he looks in your face.");
+                    System.out.println("He opens his mouth to ask you 1000 questions how it would be to be a spy, how many traitors you had unmask and many more. But his mother stopped him.");
+                    System.out.println("She asks you for your help to repair her kitchen sink.");
+                    System.out.println("You agree and go with her in her flat.");
+                    System.out.println("After work you take the way back to your apartment. (+PP)");
+                } 
+
                     
                 
                 System.out.print("\n\n");    
