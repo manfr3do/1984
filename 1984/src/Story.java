@@ -549,9 +549,11 @@ public class Story {
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
+                Game.clrscr();
                 System.out.println("Maybe she is an agent of the Thought Police, or simply an amateur spy actuated by officiousness, hardly mattered. It was enough that she was watching him. Probably she had seen him go into the pub as well. Then the spasm passed, leaving a dull ache behind. For several seconds wondering vaguely what to do, then turned round and began to retrace his steps.\n");
                 System.out.print("> ");
                 command = sc.nextLine();
+                Game.clrscr();
                 System.out.println("As he turned it occurred to him that the girl had only passed him three minutes ago and that by running he could probably catch up with her. He could keep on her track till they were in some quiet place, and then smash her skull in with a cobblestone. The piece of glass in his pocket would be heavy enough for the job.\n"
                 		+ "\n\nFor a few seconds you are too paralysed to move. Maybe you should smash her skull with the piece of glass in a blind alley, or should he walk further? ");
                 
@@ -582,6 +584,7 @@ public class Story {
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
+                Game.clrscr();
                 System.out.println("You has wait a bit, maybe you should walk home.\n");
                                                 
                 System.out.print("\n\n");    
@@ -591,6 +594,7 @@ public class Story {
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
+                Game.clrscr();
                 System.out.println("You had to decide, should you try to leave the city or should you wait and see what happens. \n");
                 
                 System.out.print("\n\n"); 
@@ -628,22 +632,26 @@ public class Story {
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
+                Game.clrscr();
                 System.out.println( "It was the middle of the morning, and you had left the cubicle to go to the lavatory. "
                 		+ "A solitary figure was coming towards him from the other end of the long, brightly-lit corridor.\n");
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
+                Game.clrscr();
                 System.out.println("It was the girl with dark hair. Four days had gone past since the evening when you had run into her outside the junk-shop. "
                 		+ "As she came nearer you saw that her right arm was in a sling, not noticeable at a distance because it was of the same colour as her overalls.\n");
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
+                Game.clrscr();
                 System.out.println("Probably she had crushed her hand while swinging round one of the big kaleidoscopes on which the plots of novels were ‘roughed in’. "
                 		+ "It was a common accident in the Fiction Department. They were perhaps four metres apart when the girl stumbled and fell almost flat on her face."
                 		+ " A sharp cry of pain was wrung out of her. She must have fallen right on the injured arm.\n");
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
+                Game.clrscr();
                 System.out.println("In front of you is an enemy who was trying to kill you on the other side she also was a human creature, "
                 		+ "in pain and perhaps with a broken bone.\n"
                 		+ "\n\nWould you help her up or go further? ");
@@ -684,16 +692,32 @@ public class Story {
                     System.out.println("\nPress Enter to continue");
                     System.out.print("> ");
                     command = sc.nextLine();
+                    Game.clrscr();
                     System.out.println("you walk down the brightly-lit corridor as if nothing had happened. you go back to your to your cubical. "
                     		+ "There ist a fragment of paper on your tabel.\n");
-                }   
+                }
+                System.out.println("You sit down at your desk and unfold the paper. On it was written, in a large unformed handwriting: "
+                		+ "I LOVE YOU. For the rest of the morning it was very difficult to work for you.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You´re home again after work, and in your bed in the darkness, where you were safe, even from the telescreen so long as you kept silent. "
+                		+ "Only in this moment you was able to think continuously. It was a physical problem that had to be solved: "
+                		+ "how to get in touch with the girl and arrange a meeting. You decide to speak with her in the canteen.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("A few days later the girl is sitting alone at a table in the canteen. You try to get over. Perhaps three meters away, a voice behind you called, 'Smith'. It was Wilsher.");
+                
                 System.out.print("\n\n");    
-                System.out.println("");
+                System.out.println("Do you react or do you go to the table?");
                 
                 System.out.print("\n\n"); 
-                System.out.println("(a): Hopeful that he will bring out some interesting stuff you buy one drink after another.");
+                System.out.println("(a): you decide to react");
                 System.out.print("\n"); 
-                System.out.println("(b): Annoyed by his nonsense you stand up and leave the bar.");
+                System.out.println("(b): 'Not now!' You think by yourself and walk to the table");
                 System.out.print("\n\n"); 
 
                 System.out.print("> ");
@@ -702,11 +726,12 @@ public class Story {
                 switch (choice) {
                     case "a":
                         decisionA = true;
-                        story = 17;
+                        story = 22;
                     break;
 
                     case "b": 
-                        story = 17;
+                    	decisionB = true;
+                        story = 22;
                     break;
                 }
             }
