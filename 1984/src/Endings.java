@@ -35,4 +35,42 @@ public class Endings {
         System.out.println("You sitting at home with beads of sweat on his forehead, they could show up here at any time. You try to burn your diary... there is a knock at the door... knock knock thoughts police, open the door, you are under arrest.");
         System.exit(0);
     }
+        public static void gameOverTen() {
+            System.out.println("As you run around a corner, you get hit on the head...... You wake up but you can't see, they put a bag over your head. You ask if someone can hear you. BANG The Tought police didn't believe your excuse and chased you. They intercepted you, knocked you down and executed you.");
+            System.exit(0);        
+    }
+        public static void gameOverEleven() {
+            System.out.println("you hide behind a bush. Suddenly you feel a thud on your head. You wake up but you can't see, they put a bag over your head. You ask if someone can hear you. BANG The Tought police didn't believe your excuse and chased you. They intercepted you, knocked you down and executed you.");
+            System.exit(0);
+    }
+        public static void gameOverTwelf() {
+            System.out.println("You go further down the corridor.\n"
+            		+ "….\n"
+            		+ "You hear footsteps behind you, or are they in front of you?\n"
+            		+ "….\n"
+            		+ "You speed up and your heart races. Suddenly the thought police appears in front of you. Your mistrust was justified, it is a trap.\n"
+            		+ "….\n"
+            		+ "The thought police grab you and drag you to the basement, when they drag you into a room O'brein s sitting in the room and smiling at you.\n"
+            		+ "….\n"
+            		+ "\"Gotcha Smith\"\n"
+            		+ "….\n"
+            		+ "You have been monitored by O'brain all this time and now you are doomed to be vaporized.\n"
+            		+ "");
+            System.exit(0);
+    }
+        public static void gameOverThirteen() {
+            System.out.println("You go further down the corridor.\n"
+            		+ "….\n"
+            		+ "You hear footsteps behind you, or are they in front of you?\n"
+            		+ "….\n"
+            		+ "You speed up and your heart races. Suddenly the thought police appears in front of you. Your mistrust was justified, it is a trap.\n"
+            		+ "….\n"
+            		+ "The thought police grab you and drag you to the basement, when they drag you into a room O'brein s sitting in the room and smiling at you.\n"
+            		+ "….\n"
+            		+ "\"Gotcha Smith\"\n"
+            		+ "….\n"
+            		+ "You have been monitored by O'brain all this time and now you are doomed to be vaporized.\n"
+            		+ "");
+            System.exit(0);
+    }
 }

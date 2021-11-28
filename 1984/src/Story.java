@@ -735,6 +735,377 @@ public class Story {
                     break;
                 }
             }
+            while(story == 22) {
+                Game.clrscr(); 
+            if(decisionA) {
+                System.out.println("You sit down with Wilsher, you two talk.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("The next day, you try to get to the canteen early to sit at her table");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("She is there and you sit down at her table. "
+                		+ "In a low murmur you begin speaking. Neither of you looked up; "
+                		+ "steadily they spooned the watery stuff into their mouths, and between spoonfuls exchanged the few necessary words in low expressionless voices.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("‘What time do you leave work?’\n"
+                		+ " ‘Eighteen-thirty.’ ‘Where can we meet?’ ‘Victory Square, near the monument.’\n"
+                		+ "‘It’s full of telescreens.’\n"
+                		+ " ‘It doesn’t matter if there’s a crowd.’\n"
+                		+ " ‘Any signal?’\n"
+                		+ " ‘No. Don’t come up to me until you see me among a lot of people. And don’t look at me. Just keep somewhere near me.’\n"
+                		+ "‘What time?’\n"
+                		+ "‘Nineteen hours.’\n"
+                		+ "‘All right.’\n");
+             }else { 
+                System.out.println("You sit down at the table with the girl"); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("In a low murmur you begin speaking. Neither of them looked up; "
+                		+ "steadily they spooned the watery stuff into their mouths, "
+                		+ "and between spoonfuls exchanged the few necessary words in low expressionless voices.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("‘What time do you leave work?’\n"
+                		+ "‘Eighteen-thirty.’\n"
+                		+ "‘Where can we meet?’\n"
+                		+ "‘Victory Square, near the monument.’\n"
+                		+ "‘It’s full of telescreens.’\n"
+                		+ "‘It doesn’t matter if there’s a crowd.’\n"
+                		+ "‘Any signal?’\n"
+                		+ "‘No. Don’t come up to me until you see me among a lot of people. And don’t look at me. Just keep somewhere near me.’\n"
+                		+ "‘What time?’\n"
+                		+ "‘Nineteen hours.’\n"
+                		+ "‘All right.’\n");
+            }
+                System.out.print("\n\n");    
+                System.out.println("You met at the Victory square, you both speaking in the same expressionless voice as before. ….\n"
+                		+ "‘Can you hear me?’\n"
+                		+ "‘Yes.’\n"
+                		+ "‘Can you get Sunday afternoon off?’\n"
+                		+ "‘Yes.’\n"
+                		+ "‘Then listen carefully. You’ll have to remember this. Go to Paddington Station——’\n"
+                		+ "‘Yes.’\n"
+                		+ "‘You turn left, then right, then left again. And the gate’s got no top bar.’\n"
+                		+ "‘Yes. What time?’\n"
+                		+ "‘About fifteen. You may have to wait. I’ll get there by another way. Are you sure you remember everything?’\n"
+                		+ "‘Yes.’\n"
+                		+ "‘Then get away from me as quick as you can.’\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("You arrange to meet in the forest.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("The way into the forest is difficult and surrounded by many dangers. Patrols of thought police controlled the railroad climb.");
+                System.out.print("\n\n"); 
+                System.out.println("When you get off the train, you run into a patrol of thought police, you are eyed skeptically. "
+                		+ "You are asked where you want to go. you start sweating and have to come up with a spontaneous excuse. ");
+                
+                System.out.print("\n\n"); 
+                System.out.println("(a): the weather is good and you want to build up your fitness so that you are ready when the enemy attacks. ");
+                System.out.print("\n"); 
+                System.out.println("(b): i am on my way for a walk so that i can gather new strength to do my work in the ministry of truth well.");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        story = 23;
+                    break;
+
+                    case "b": 
+                    	decisionA = true;
+                        story = 25;
+                    break;
+                }
+            }
+            
+            while(story == 23) {
+                Game.clrscr(); 
+                System.out.println("the patrole lets you go. you move on towards the meeting point. "
+                		+ "Arrived at the meeting point, you wait 20 minutes, the girl does not show up. you think about what you could do.");
+                                
+                            
+                System.out.print("\n\n"); 
+                System.out.println("(a): you could look around ");
+                System.out.print("\n"); 
+                System.out.println("(b): you keep waiting");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        story = 24;
+                    break;
+
+                    case "b": 
+                    	decisionB = true;
+                        story = 25;
+                    break;
+                }
+            }
+            while(story == 24) {
+                Game.clrscr(); 
+                System.out.println("You look around, while looking around you find a blood stain on the floor. "
+                		+ "you panic. What if the blood is the girl's, maybe they got her....?");                              
+                          
+                System.out.print("\n\n"); 
+                System.out.println("(a): Out of panic you run away ");
+                System.out.print("\n"); 
+                System.out.println("(b): You hide");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        ending = 10;
+                        isGameOver = true;
+                    break;
+
+                    case "b": 
+                    	ending = 11;
+                        isGameOver = true;
+                    break;
+                }
+                break;
+            }
+            while(story == 25) {
+                Game.clrscr(); 
+            if(decisionB) {    
+                System.out.println("After a few minutes of waiting, the gils shows up and you disappear together in the forrest.");
+            }else {
+            	System.out.println("The tought police let you go, you go to the meeting point and wait a bit, the girl shows up and you disappear together in the forest.");
+            }
+            System.out.println("After the first meeting in the forest, you find to each other and slide straight into an illicit relationship."); 
+            System.out.println("\nPress Enter to continue");
+            System.out.print("> ");
+            command = sc.nextLine();
+            Game.clrscr();
+            System.out.println("Her name is Julia. After a few dates in the forest you realize that you can not always meet here, you are looking for a new shelter.");          
+                System.out.print("\n\n"); 
+                System.out.println("Mr.Charrington comes to your mind. you could rent the small room above his store.");          
+                System.out.print("\n\n"); 
+                
+                System.out.println("(a): Rent Room ");
+                System.out.print("\n"); 
+                System.out.println("(b): Further in Forest Meeting");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                    	decisionA =true;
+                        story = 26;
+                    break;
+
+                    case "b":
+                    	decisionB = true;
+                        story = 26;
+                    break;
+                }
+            }
+            while(story == 26) {
+            if(decisionA) { 
+            	Game.clrscr(); 
+                System.out.println("It was a shabby little room, but it is enough for you tow and it is safe.");                                
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Through the room you can meet 6 - 7 times a month and live out your love you get to know each "
+                		+ "other well and at some point you both realize that you want more than just to work against the party through love, "
+                		+ "you want to join the rebellion against the party. The question is how to do that.");
+            } else {
+            	Game.clrscr(); 
+                System.out.println("You meet again in the forest. On the way into the forest, you had the feeling that you were being followed, but you couldn't see anyone. "
+                		+ "Julian had the same feeling. "
+                		+ "You decide that this meeting point is too risky and rent the room above Mr. Charrington's store.");                                
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("It was a shabby little room, but it is enough for you tow and it is safe.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("Through the room you can meet 6 - 7 times a month and live out your love you get to know each other well "
+                		+ "and at some point you both realize that you want more than just to work against the party through love, you want to join the rebellion against the party. "
+                		+ "The question is how to do that.");
+            }
+                System.out.print("\n\n"); 
+                System.out.print("you don't even know if the brotherhood really exists ...."); 
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("The only person you can think of who could make a connection is O'brein. You don't even really know him.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("It had happend at last. The expected message had come. All your life, "
+                		+ "it seemed to him, he had been waiting for his happen. He was walking down the long corridor at the Ministry and he was almost at the spot where Julia had slipped"
+                		+ " the note into his hand when he became aware that someone larger than himself was walking just behind him. "
+                		+ "The person, whoever it was, gave a small cough, evidently as a prelude to speaking. "
+                		+ "You stopped abruptly and turned. It was O’Brien.");
+                System.out.print("\n\n"); 
+                System.out.print("O'Brien was part of the inner party, he approaches you about your work and asks if you are interested in the new dictionary edition of newspeak and whether you want to pick them up at his house."); 
+                System.out.print("\n\n"); 
+                
+                System.out.println("(a): You become suspicious and decline with thanks.  ");
+                System.out.print("\n"); 
+                System.out.println("(b): you take the chance ");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        story = 27;
+                    break;
+
+                    case "b": 
+                    	decisionB = true;
+                        story = 28;
+                    break;
+                }
+            }
+            while(story == 27) {
+                Game.clrscr(); 
+                System.out.println("You walk further down the corridor and O'brein looks behind you, you walk further and stand in front of a T-crossing ");
+                                
+                System.out.print("\n\n");    
+                System.out.println("The old man is drunk and babbles little useful. You are not sure what to do with him.");
+                
+                System.out.print("\n\n"); 
+                System.out.println("(a): Your feeling is better at the right way");
+                System.out.print("\n"); 
+                System.out.println("(b): take the left way");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                    	 ending = 12;
+                         isGameOver = true;
+                     break;
+
+                     case "b": 
+                     	ending = 13;
+                         isGameOver = true;
+                     break;
+                 }
+                 break;
+            }
+            while(story == 28) {
+                Game.clrscr(); 
+                System.out.println("O'Brien writes you, his address. you thank him and go on.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("After much deliberation, you and Julia decide to go to O'Brien and ask him about the brotherhood.");                
+                System.out.print("\n\n");    
+                System.out.println("The room they were Standing in was long-shaped and softly lit. The telescreen was dimmed to a low murmur; "
+                		+ "the richness of the dark-blue carpet gave one the impression of treading on velvet. "
+                		+ "At the far end of the room O’Brien was sitting at a table under a green-shaded lamp, with a mass of papers on either side of him.");
+                System.out.print("\n\n");    
+                System.out.println("With his characteristic gesture O’Brien resettled his spectacles on his nose.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("‘Shall I say it, or will you?’ he said.\n"
+                		+ "‘I will say it,’ said Winston promptly.\n"
+                		+ "‘That thing is really turned off?’\n"
+                		+ "‘Yes, everything is turned off. We are alone.’\n"
+                		+ "‘We have come here because——’");
+                
+                System.out.print("\n\n"); 
+                System.out.println("(a): we wanted to pick up the dictionary ");
+                System.out.print("\n"); 
+                System.out.println("(b): We believe that there is some kind of conspiracy, "
+                		+ "some kind of secret organization working against the Party, and that you are involved in it. ");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":                        
+                        story = 29;
+                    break;
+
+                    case "b": 
+                        story = 32;
+                    break;
+                }
+            }
+            while(story == 29) {
+                Game.clrscr(); 
+                System.out.println("You got scared and don't dare to ask what you wanted. O'Brien looks at you a bit questioningly, but gives you the dictionary.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("O'Brien looks at you pithily and asks again more intensely 'is that all, or do you want to ask something else?' ");                
+                                
+                System.out.print("\n\n"); 
+                System.out.println("(a): I have another question ");
+                System.out.print("\n"); 
+                System.out.println("(b): no that's all ");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        decisionA = true;
+                        story = 30;
+                    break;
+
+                    case "b": 
+                    	decisionB = true;
+                        story = 31;
+                    break;
+                }
+            }
+    /* 		
+      		System.out.println("\nPress Enter to continue");
+            System.out.print("> ");
+            command = sc.nextLine();
+            Game.clrscr();
+            System.out.println("The only person you can think of who could make a connection is O'brein. You don't even really know him.");        
+    */      
+            
     //command = sc.next();
     // End main game loop
     } while(!command.equals("exit") && traitorPoints == 10 || isGameOver == false);
@@ -764,6 +1135,18 @@ public class Story {
     }
     if(ending == 9) {
         Endings.gameOverNine();
+    }
+    if(ending == 10) {
+        Endings.gameOverTen();
+    }
+    if(ending == 11) {
+        Endings.gameOverEleven();
+    }
+    if(ending == 12) {
+        Endings.gameOverTwelf();
+    }
+    if(ending == 13) {
+        Endings.gameOverThirteen();
     }
     } // End start()
 } // End class
