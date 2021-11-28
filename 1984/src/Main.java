@@ -10,6 +10,7 @@ public class Main {
 		Story story = new Story();
 		do {
 			Game.clrscr();
+			System.out.print("\033[32m");
 			System.out.println("Type \"start\" to start the game or \"exit\" to quit the game\n");
 			System.out.print("> ");
 			
