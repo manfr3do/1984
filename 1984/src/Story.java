@@ -536,7 +536,7 @@ public class Story {
                         isGameOver = true;
                     break;
                 }
-            
+                break;
             }
             while(story == 18) {
                 Game.clrscr(); 
@@ -1069,6 +1069,36 @@ public class Story {
                 }
             }
             while(story == 29) {
+                Game.clrscr(); 
+                System.out.println("You got scared and don't dare to ask what you wanted. O'Brien looks at you a bit questioningly, but gives you the dictionary.");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                Game.clrscr();
+                System.out.println("O'Brien looks at you pithily and asks again more intensely 'is that all, or do you want to ask something else?' ");                
+                                
+                System.out.print("\n\n"); 
+                System.out.println("(a): I have another question ");
+                System.out.print("\n"); 
+                System.out.println("(b): no that's all ");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        decisionA = true;
+                        story = 30;
+                    break;
+
+                    case "b": 
+                    	decisionB = true;
+                        story = 31;
+                    break;
+                }
+            }
+            while(story == 30) {
                 Game.clrscr(); 
                 System.out.println("You got scared and don't dare to ask what you wanted. O'Brien looks at you a bit questioningly, but gives you the dictionary.");
                 System.out.println("\nPress Enter to continue");
