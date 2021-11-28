@@ -526,13 +526,187 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        // Story zu Fynn
+                    	decisionA = true;
+                        story = 18;
 
                     break;
 
                     case "b": 
                         ending = 7;
                         isGameOver = true;
+                    break;
+                }
+            
+            }
+            while(story == 18) {
+                Game.clrscr(); 
+                System.out.println("The conversation to Mr Charrington is very interesting. He knows a lot, even the rhyme of the bells of St. Clements. The he shows you a room upstairs which looks comfortable and with no telescreen in it. Happy you leave the shop. You saw a lot of beautiful things.");                           
+                System.out.print("\n\n");    
+                System.out.println("A figure in blue overalls was coming down the pavement, not ten metres away. "
+                		+ "It was the girl from the Fiction Department, the girl with dark hair. "
+                		+ "The light was failing, but there was no difficulty in recognizing her."
+                		+ " She looked him straight in the face, then walked quickly on as though she had not seen him. She must have followed him here.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                System.out.println("Maybe she is an agent of the Thought Police, or simply an amateur spy actuated by officiousness, hardly mattered. It was enough that she was watching him. Probably she had seen him go into the pub as well. Then the spasm passed, leaving a dull ache behind. For several seconds wondering vaguely what to do, then turned round and began to retrace his steps.\n");
+                System.out.print("> ");
+                command = sc.nextLine();
+                System.out.println("As he turned it occurred to him that the girl had only passed him three minutes ago and that by running he could probably catch up with her. He could keep on her track till they were in some quiet place, and then smash her skull in with a cobblestone. The piece of glass in his pocket would be heavy enough for the job.\n"
+                		+ "\n\nFor a few seconds you are too paralysed to move. Maybe you should smash her skull with the piece of glass in a blind alley, or should he walk further? ");
+                
+                System.out.print("\n\n"); 
+                System.out.println("(a): smash");
+                System.out.print("\n"); 
+                System.out.println("(b): walk");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        story = 19;
+                    break;
+
+                    case "b": 
+                        story = 20;
+                    break;
+                }
+            }
+            while(story == 19) {
+                Game.clrscr(); 
+                System.out.println("You smashed her skull in the blind alley, and have to run away. "
+                		+ "You run a few blocks and hide in a dark alley. Your heart races, has anyone seen him? "
+                		+ "When the thought police find the woman, it's over.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                System.out.println("You has wait a bit, maybe you should walk home.\n");
+                                                
+                System.out.print("\n\n");    
+                System.out.println("While you go home, the dead women was found by the thought police... "
+                		+ "they found a piece of glass near the dead body, and asked people in the area if they had seen anything. "
+                		+ "They also question Mr. Charrington, who recognizes the piece of glass and puts them on your trail.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                System.out.println("You had to decide, should you try to leave the city or should you wait and see what happens. \n");
+                
+                System.out.print("\n\n"); 
+                System.out.println("(a): leave");
+                System.out.print("\n"); 
+                System.out.println("(b): wait");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        ending = 8;
+                        isGameOver = true;
+                    break;
+
+                    case "b": 
+                        ending = 9;
+                        isGameOver = true;
+                    break;
+                }
+                break;
+            }
+            while(story == 20) {
+                Game.clrscr(); 
+                System.out.println("Winston walks further, you turned to the right and walked heavily away, not noticing for the moment that you going in the wrong direction."
+                		+ " At any rate, one question was settled. There was no doubting any longer that the girl was spying on you. "
+                		+ "You thought also of hurrying to the Community Centre and staying there till the place closed, so as to establish a partial alibi for the evening. "
+                		+ "But that too was impossible. A deadly lassitude had taken hold of you. All you wanted was to get home quickly and then sit down and be quiet.");
+                                
+                System.out.print("\n\n");    
+                System.out.println("You´re home again, you went into the kitchen and swallow nearly a teacupful of Victory Gin.\n"
+                		+ "You went to the table and took the diary out of the drawer, but you did not open it, you only stare at the cover of the book and trying without success to shut the voice out if his consciousness.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                System.out.println( "It was the middle of the morning, and you had left the cubicle to go to the lavatory. "
+                		+ "A solitary figure was coming towards him from the other end of the long, brightly-lit corridor.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                System.out.println("It was the girl with dark hair. Four days had gone past since the evening when you had run into her outside the junk-shop. "
+                		+ "As she came nearer you saw that her right arm was in a sling, not noticeable at a distance because it was of the same colour as her overalls.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                System.out.println("Probably she had crushed her hand while swinging round one of the big kaleidoscopes on which the plots of novels were ‘roughed in’. "
+                		+ "It was a common accident in the Fiction Department. They were perhaps four metres apart when the girl stumbled and fell almost flat on her face."
+                		+ " A sharp cry of pain was wrung out of her. She must have fallen right on the injured arm.\n");
+                System.out.println("\nPress Enter to continue");
+                System.out.print("> ");
+                command = sc.nextLine();
+                System.out.println("In front of you is an enemy who was trying to kill you on the other side she also was a human creature, "
+                		+ "in pain and perhaps with a broken bone.\n"
+                		+ "\n\nWould you help her up or go further? ");
+                
+                System.out.print("\n\n"); 
+                System.out.println("(a): help her");
+                System.out.print("\n"); 
+                System.out.println("(b): ignore her and walk away");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        decisionA = true;
+                        story = 21;
+                    break;
+
+                    case "b": 
+                    	decisionB = true;
+                        story = 21;
+                    break;
+                }
+            }
+            while(story == 21) {
+                Game.clrscr(); 
+                if(decisionA) {
+                    System.out.println("‘You haven’t broken anything?’\n"
+                    		+ "‘No, I’m all right. It hurt for a moment, that’s all.’\n"
+                    		+ " She held out her free hand to you, and you helped her up. She had regained some of her colour, and appeared very much better. ‘It’s nothing,’\n"
+                    		+ "she repeated shortly.\n"
+                    		+ "‘I only gave my wrist a bit of a bang. Thanks, comrade!’\n"
+                    		+ "And with that she walked on in the direction in which she had been going, as briskly as though it had really been nothing. "
+                    		+ "In the two or three seconds while you was helping her up, the girl had slipped something into your hand. She gives you a fragment of paper.\n");
+                } else {
+                    System.out.println("The dark haired girls lies on the ground, her face contorts in pain.\n");
+                    System.out.println("\nPress Enter to continue");
+                    System.out.print("> ");
+                    command = sc.nextLine();
+                    System.out.println("you walk down the brightly-lit corridor as if nothing had happened. you go back to your to your cubical. "
+                    		+ "There ist a fragment of paper on your tabel.\n");
+                }   
+                System.out.print("\n\n");    
+                System.out.println("");
+                
+                System.out.print("\n\n"); 
+                System.out.println("(a): Hopeful that he will bring out some interesting stuff you buy one drink after another.");
+                System.out.print("\n"); 
+                System.out.println("(b): Annoyed by his nonsense you stand up and leave the bar.");
+                System.out.print("\n\n"); 
+
+                System.out.print("> ");
+                String choice = sc.nextLine();
+
+                switch (choice) {
+                    case "a":
+                        decisionA = true;
+                        story = 17;
+                    break;
+
+                    case "b": 
+                        story = 17;
                     break;
                 }
             }
@@ -559,6 +733,12 @@ public class Story {
     }
     if(ending == 7) {
         Endings.gameOverSeven();
+    }
+    if(ending == 8) {
+        Endings.gameOverEight();
+    }
+    if(ending == 9) {
+        Endings.gameOverNine();
     }
     } // End start()
 } // End class

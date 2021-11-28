@@ -4,7 +4,7 @@ public class Endings {
         System.exit(0);
     }
     public static void gameOverTwo() {
-        System.out.println("A loud BÄÄÄM at the door. then 5 people, all from the Thought Police, run into your flat and take position around you. A black bag over your face and a hard blow to the head. Then DARKNESS. (Game Over. The Thought Police come to get you)");
+        System.out.println("A loud BÃ„Ã„Ã„M at the door. then 5 people, all from the Thought Police, run into your flat and take position around you. A black bag over your face and a hard blow to the head. Then DARKNESS. (Game Over. The Thought Police come to get you)");
         System.exit(0);
     }
     public static void gameOverThree() {
@@ -12,7 +12,7 @@ public class Endings {
         System.exit(0);
     }
     public static void gameOverFour() {
-        System.out.println("Your leg hurts because of the varicose ulcer and the men behind you are athletic and very fast. After a short run through the corridors, they got you. They put a black bag over your face. You hear them say with laugh: “Another one for the gallows”.");
+        System.out.println("Your leg hurts because of the varicose ulcer and the men behind you are athletic and very fast. After a short run through the corridors, they got you. They put a black bag over your face. You hear them say with laugh: â€œAnother one for the gallowsâ€�.");
         System.exit(0);
     }
     public static void gameOverFive() {
@@ -20,12 +20,19 @@ public class Endings {
         System.exit(0);
     }
     public static void gameOverSix() {
-        System.out.println("You pass the corner, then one more. Exactly when you run over the street a noisy sound about you, a light and a pain never felt. You lie on the street. Around you fearful faces. A child asks his mother why the man doesn´t have any legs. You feel a sticky wet liquid under your body. Then your view turns black. ");
+        System.out.println("You pass the corner, then one more. Exactly when you run over the street a noisy sound about you, a light and a pain never felt. You lie on the street. Around you fearful faces. A child asks his mother why the man doesnÂ´t have any legs. You feel a sticky wet liquid under your body. Then your view turns black. ");
         System.exit(0);
     }
     public static void gameOverSeven() {
         System.out.println("You walk another street when a loud noisy sound comes from up to you. Then a loud explosion, a brightly light, a pain and darkness. Another bomb dropped directly in front of you. ");
         System.exit(0);
     }
-
+    public static void gameOverEight() {
+        System.out.println("You try to leave London by train in a risky action during the night. The police are standing at the railroad track, your ID is checked. You are caught, the thought police arrest you.");
+        System.exit(0);
+    }
+    public static void gameOverNine() {
+        System.out.println("You sitting at home with beads of sweat on his forehead, they could show up here at any time. You try to burn your diary... there is a knock at the door... knock knock thoughts police, open the door, you are under arrest.");
+        System.exit(0);
+    }
 }
