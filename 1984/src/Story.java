@@ -1665,7 +1665,7 @@ public class Story {
 
                     case "b":
                     	ending = 18;
-                        isGameOver = true;;
+                        isGameOver = true;
                     break;
                 }
             }
