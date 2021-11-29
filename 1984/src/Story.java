@@ -8,7 +8,7 @@ public class Story {
 	Random rand = new Random();
 	
     private int story;
-    private int traitorPoints = 0;
+    private int traitorPoints = 9;
     private int partyPoints = 0;
     private boolean isGameOver = false;
     private int ending;
@@ -2006,7 +2006,7 @@ public class Story {
    
     //command = sc.next();
     // End main game loop
-    } while(!command.equals("exit") && traitorPoints == 10 || isGameOver == false);
+    } while(!command.equals("exit") && traitorPoints >= 10 || isGameOver == false);
     if(ending == 1) {
         Endings.gameOverOne();
     }
@@ -2061,7 +2061,7 @@ public class Story {
     if(ending == 18) {
         Endings.gameOverEightteen();
     }
-    if(traitorPoints == 10) {
+    if(traitorPoints >= 10) {
     	Endings.gameOverNineteen();
     }
     } // End start()
