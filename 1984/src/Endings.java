@@ -179,4 +179,8 @@ public class Endings {
             		+ "finally, it's over, you say with a slight smile, before you hear the click of the trigger.\n");
             System.exit(0);
     }
+        public static void gameOverNineteen() {
+            System.out.println("You have been exposed as a traitor. The gallow await for you.");
+            System.exit(0);
+        }
 }
