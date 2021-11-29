@@ -8,7 +8,7 @@ public class Story {
 	Random rand = new Random();
 	
     private int story;
-    private int traitorPoints = 9;
+    private int traitorPoints = 0;
     private int partyPoints = 0;
     private boolean isGameOver = false;
     private int ending;
@@ -90,8 +90,9 @@ public class Story {
             
                 switch (choice) {
                     case "a":
+                    	
                         traitorPoints = traitorPoints + rand.nextInt(3); 
-                        story = 4;
+                        story = 4;                    	
                     break;
 
                     case "b": 
@@ -2060,7 +2061,7 @@ public class Story {
     if(ending == 18) {
         Endings.gameOverEightteen();
     }
-    if(traitorPoints == 19) {
+    if(traitorPoints == 10) {
     	Endings.gameOverNineteen();
     }
     } // End start()
