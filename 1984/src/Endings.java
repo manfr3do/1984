@@ -43,7 +43,7 @@ public class Endings {
             System.out.println("you hide behind a bush. Suddenly you feel a thud on your head. You wake up but you can't see, they put a bag over your head. You ask if someone can hear you. BANG The Tought police didn't believe your excuse and chased you. They intercepted you, knocked you down and executed you.");
             System.exit(0);
     }
-        public static void gameOverTwelf() {
+        public static void gameOverTwelve() {
             System.out.println("You go further down the corridor.\n"
             		+ "….\n"
             		+ "You hear footsteps behind you, or are they in front of you?\n"

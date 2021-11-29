@@ -1853,7 +1853,7 @@ public class Story {
         Endings.gameOverEleven();
     }
     if(ending == 12) {
-        Endings.gameOverTwelf();
+        Endings.gameOverTwelve();
     }
     if(ending == 13) {
         Endings.gameOverThirteen();
