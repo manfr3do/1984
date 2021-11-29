@@ -26,7 +26,7 @@ public class Endings {
         System.out.println("Your leg hurts because of the varicose ulcer and the men behind you are athletic and very fast." 
 					+ "\nAfter a short run through the corridors, they got you." 
 					+ "\nThey put a black bag over your face." 
-					+ "\nYou hear them say with laugh: â€œAnother one for the gallowsâ€�.");
+					+ "\nYou hear them say with laugh: \"Another one for the gallows.\"");
         System.exit(0);
     }
     public static void gameOverFive() {
@@ -87,7 +87,7 @@ public class Endings {
             		+ "….\n"
             		+ "\"Gotcha Smith\"\n"
             		+ "….\n"
-            		+ "You have been monitored by O'brain all this time and now you are doomed to be vaporized.\n"
+            		+ "You have been monitored by O'Brien all this time and now you are doomed to be vaporized.\n"
             		+ "");
             System.exit(0);
     }
@@ -98,11 +98,11 @@ public class Endings {
             		+ "….\n"
             		+ "You speed up and your heart races. Suddenly the thought police appears in front of you. Your mistrust was justified, it is a trap.\n"
             		+ "….\n"
-            		+ "The thought police grab you and drag you to the basement, when they drag you into a room O'brein s sitting in the room and smiling at you.\n"
+            		+ "The thought police grab you and drag you to the basement, when they drag you into a room O'Brien s sitting in the room and smiling at you.\n"
             		+ "….\n"
             		+ "\"Gotcha Smith\"\n"
             		+ "….\n"
-            		+ "You have been monitored by O'brain all this time and now you are doomed to be vaporized.\n"
+            		+ "You have been monitored by O'Brien all this time and now you are doomed to be vaporized.\n"
             		+ "");
             System.exit(0);
     }

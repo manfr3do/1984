@@ -151,11 +151,11 @@ public class Story {
                 Game.clrscr();    
                 System.out.println("The alcohol makes you forget your caution.");
                 System.out.println("Swaying, you go to the living room, sit down at the table and take out the diary.");   
-                System.out.println("When you take the book, immediately a noisy voice fills the room: â€žComrade! What do u have there in your hand â€œ? Shocked you sit straight.");
+                System.out.println("When you take the book, immediately a noisy voice fills the room: \"Comrade! What do u have there in your hand?\" Shocked you sit straight.");
                 System.out.print("\n\n"); 
                 System.out.println("(a): Babbling something like you just make notes for your work. Ideas you have, for a good, trustful storyline.");
                 System.out.println("(b): You drank to much Gin and no good answer comes into your mind." 
-                        + "\nYou shutter some words like it would be nothing and you donÂ´t know what it is and where it came from.");
+                        + "\nYou shutter some words like it would be nothing and you don't know what it is and where it came from.");
 
                 System.out.print("> ");
                 String choice = sc.nextLine();
@@ -228,7 +228,7 @@ public class Story {
                 System.out.println("Immediately the littles run into your flat, while shooting at you with toy guns.");
                 System.out.println("They always play little spies who discover traitors.");
                 System.out.println("They reach the table where the book was left open.");
-                System.out.println("Winstons heart slips in pants, while the boy got big eyes, when he reads the words 'DOWN WITH BIG BROTHER'â€¦.");
+                System.out.println("Winstons heart slips in pants, while the boy got big eyes, when he reads the words \"DOWN WITH BIG BROTHER.\"");
                 System.out.println("Knowing the meaning of the words, he starts to scream â€žTraitor! Traitor! He is a traitor!");
                 
                 System.out.print("\n\n");    
@@ -237,7 +237,7 @@ public class Story {
                 System.out.println("(a): Explain him that the book is from your work. It is to learn about the ways traitors think and how you can unmask them.");
                 System.out.print("\n"); 
                 System.out.println("(b): While you think about a good lie to tell the boy, he makes out of your grab," 
-                        + "\nrun into the floor and keep screaming: â€œtraitor, traitor, the comrade is a traitor.â€� ");
+                        + "\nrun into the floor and keep screaming: \"traitor, traitor, the comrade is a traitor.\"");
                 System.out.print("\n\n"); 
 
                 System.out.print("> ");
@@ -269,7 +269,7 @@ public class Story {
                     System.out.println("He feels that he has discovered a real spy.");
                     System.out.println("With a smile of admiration, he looks in your face.");
                     System.out.println("He opens his mouth to ask you 1000 questions how it would be to be a spy," 
-                    + "\nhow many traitors you had unmask and many more. But his mother stopped him.");
+                        + "\nhow many traitors you had unmask and many more. But his mother stopped him.");
                     System.out.println("She asks you for your help to repair her kitchen sink.");
                     System.out.println("You agree and go with her in her flat.");
                     System.out.println("After work you take the way back to your apartment.");
@@ -286,7 +286,7 @@ public class Story {
                         + "\nIt needs a good, realistic story but not to far away from the truth, that all would trust it.");
                 System.out.print("\n"); 
                 System.out.println("(b): You are tired because you had a nightmare last night and slept very bad." 
-                        + "\nYou canÂ´t stay concentrate and your thoughts are at lunch. You start writing very fast. This work must be done before lunch.");
+                        + "\nYou can't stay concentrate and your thoughts are at lunch. You start writing very fast. This work must be done before lunch.");
                 System.out.print("\n\n"); 
 
                 System.out.print("> ");
@@ -313,8 +313,8 @@ public class Story {
                 
                 System.out.print("\n\n");    
                 System.out.println("Just when you leave your cubicle a man stands in front of you." 
-                        + "\nIn his hand he has a piece of paper. You see the heading and realize that itÂ´s the article you wrote a few moments ago." 
-                        + "\n'Comrade!' He says, â€œwe have to talk about this article you wrote! There are some points that will not work!â€�");
+                        + "\nIn his hand he has a piece of paper. You see the heading and realize that it's the article you wrote a few moments ago." 
+                        + "\n'Comrade!' He says, \"we have to talk about this article you wrote! There are some points that will not work!\"");
                 System.out.print("\n\n"); 
                 System.out.println("(a): You curse yourself and your laziness." 
                         + "\nNervous you say that you will fix it immediately after lunch and promise to take more care next time.");
@@ -348,7 +348,7 @@ public class Story {
                 System.out.print("\n\n"); 
                 System.out.println("(a): You feel a painful stitch in the abdomen but take the paper from the man, mumble an apology and say you will fix it after lunch.");
                 System.out.print("\n"); 
-                System.out.println("(b): Your face turns pale. You hold the manÂ´s shoulder and stammer out an apology." 
+                System.out.println("(b): Your face turns pale. You hold the man's shoulder and stammer out an apology." 
                         + "\nYou had no idea who he was and of course you will fix the article right after lunch. Even if it will cost the whole night.");
                 System.out.print("\n\n"); 
 
@@ -406,14 +406,14 @@ public class Story {
             while(story == 12) {
                 Game.clrscr(); 
                 System.out.println("Syme`s eyebrows climb over the roof while his underlip reach the basement." 
-                        + "\nHe stammers something like you wouldnÂ´t have an idea how important this is and that you better take care what and to whom you say things like this." 
+                        + "\nHe stammers something like you wouldn't have an idea how important this is and that you better take care what and to whom you say things like this." 
                         + "\nThen he stands up and fast goes his way.");
                 
                 System.out.print("\n\n");    
                 System.out.println("One moment later you realize what you have said, jump up and follow him to the corridor.");
                 System.out.print("\n\n"); 
                 System.out.println("(a): When you stand next to him you grab his arm, turn him around and say that it was just a bad joke." 
-                        + "\nYou explain him that itÂ´s very hard to do your job while all a few days the words" 
+                        + "\nYou explain him that it's very hard to do your job while all a few days the words" 
                         + "\nswitched but that you truly see the function of rewriting Newspeak and he makes a great job on it.");
                 System.out.print("\n"); 
                 System.out.println("(b): Two metres behind him you jump on his back and push him on the wall." 
@@ -442,7 +442,7 @@ public class Story {
                 Game.clrscr(); 
                 System.out.println("Pale he swears that he never will tell anyone what you said and runs away." 
                         + "\nYou turn around and see it on the wall." 
-                        + "\nThe telescreen was â€œwatching and listeningâ€� to you." 
+                        + "\nThe telescreen was \"watching and listening\" to you." 
                         + "\nYou were loud enough that your voice was clear and good to understand.");
                 
                 System.out.print("\n\n");    
@@ -521,7 +521,7 @@ public class Story {
                         + "\nYou go next to them and ask if they remember the time before INGSOC.");
                 System.out.print("\n"); 
                 System.out.println("(b): An old, drunk man asks loud for another drink," 
-                        + "\nbut the barkeeper just said: â€œNo money, no drink!â€� You buy two drinks and sit down at the table of the old.");
+                        + "\nbut the barkeeper just said: \"No money, no drink!\" You buy two drinks and sit down at the table of the old.");
                 System.out.print("\n\n"); 
 
                 System.out.print("> ");
@@ -572,7 +572,7 @@ public class Story {
             while(story == 17) {
                 Game.clrscr(); 
                 if(decisionA) {
-                    System.out.println("You paid seven drinks for the old but he doesnÂ´t say anything interesting." 
+                    System.out.println("You paid seven drinks for the old but he doesn't say anything interesting." 
                         + "\nYou leave the bar and walk along the street that looks very familiar to you.");
                 }else if(decisionB) {
                 	System.out.println("irritated and suspicious the men look at you and your overall." 
@@ -808,7 +808,7 @@ public class Story {
                 System.out.print("\n\n"); 
                 System.out.println("(a): you decide to react");
                 System.out.print("\n"); 
-                System.out.println("(b): 'Not now!' You think by yourself and walk to the table");
+                System.out.println("(b): \"Not now!\" You think by yourself and walk to the table");
                 System.out.print("\n\n"); 
 
                 System.out.print("> ");
@@ -1061,7 +1061,7 @@ public class Story {
                 System.out.print("> ");
                 command = sc.nextLine();
                 Game.clrscr();
-                System.out.println("The only person you can think of who could make a connection is O'brein. You don't even really know him.");
+                System.out.println("The only person you can think of who could make a connection is O'Brien. You don't even really know him.");
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
@@ -1099,7 +1099,7 @@ public class Story {
             }
             while(story == 27) {
                 Game.clrscr(); 
-                System.out.println("You walk further down the corridor and O'brein looks behind you, you walk further and stand in front of a T-crossing ");
+                System.out.println("You walk further down the corridor and O'Brien looks behind you, you walk further and stand in front of a T-crossing ");
                                 
                 System.out.print("\n\n");    
                 System.out.println("The old man is drunk and babbles little useful. You are not sure what to do with him.");
@@ -1505,7 +1505,7 @@ public class Story {
                 Game.clrscr();
                 System.out.println("A bench or shelf just wide enough to sit on ran along the wall,\n"
                 		+ "interrupted only by the door, and at the end, opposite the door.\n"
-                		+ "a toilet bowl with no wooden seat. there were also\n"
+                		+ "a toilet bowl with no wooden seat. There were also\n"
                 		+ "four screens, one in each wall.\n"); 
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
@@ -1556,7 +1556,7 @@ public class Story {
                 command = sc.nextLine();
                 Game.clrscr();
                 System.out.println("You get hold in front of a door. The door number 101. You know what is inside waiting for you. Tears running down your face. "
-                		+ "You are being pushed in, put on a chair and shackles around arms, body and legs. Then O´Brien stand next to you and asks you how much two plus two is."); 
+                		+ "You are being pushed in, put on a chair and shackles around arms, body and legs. Then O'Brien stand next to you and asks you how much two plus two is."); 
                 
                 System.out.print("\n\n");
                 System.out.println("(a): You say that it is four. How could it be otherwise?");
@@ -1648,7 +1648,7 @@ public class Story {
             while(story == 39) {
                 Game.clrscr(); 
             if(decisionA) {
-            	 System.out.println("This is not what O’Brien wanted to hear");
+            	 System.out.println("This is not what O'Brien wanted to hear");
                  System.out.println("\nPress Enter to continue");
                  System.out.print("> ");
                  command = sc.nextLine();
@@ -1662,7 +1662,7 @@ public class Story {
                 Game.clrscr();
                 System.out.println("We are slowly getting closer.");
             } else if(decisionC) { 
-            	System.out.println("O’Brien hits him with a powerful blow to the nose."); 
+            	System.out.println("O'Brien hits him with a powerful blow to the nose."); 
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
@@ -1861,8 +1861,9 @@ public class Story {
                 Game.clrscr();
                 System.out.println("O  cruel,  needless  misunderstanding!  O \n"
                 		+ "stubborn, self-willed exile from the loving breast!\n"
-                		+ "Two gin-scented tears trickled down the sides of your nose. But it was all right, everything was all right, the struggle was finished. \n"
-                		+ "you has won the victory over himself. You loves Big Brother");  
+                		+ "Two gin-scented tears trickled down the sides of your nose." 
+                        + "\nBut it was all right, everything was all right, the struggle was finished. \n"
+                		+ "you has won the victory over yourself. You loves Big Brother");  
                 System.out.println("\nPress Enter to continue");
                 System.out.print("> ");
                 command = sc.nextLine();
