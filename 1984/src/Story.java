@@ -6,13 +6,14 @@ public class Story {
 	Scanner sc = new Scanner(System.in);
 
     private int story;
-    private int traitorPoints;
-    private int partyPoints;
+    private int traitorPoints = 0;
+    private int partyPoints = 0;
     private boolean isGameOver = false;
     private int ending;
     private boolean decisionA;
     private boolean decisionB;
     private boolean decisionC;
+    private int healthPoints = 100;
 
     public void start() {
         // Main game loop
@@ -66,7 +67,7 @@ public class Story {
                 System.out.print("\n\n"); 
                 Game.slowPrint("In your apartment you feel thirsty. You take the bottle of Victory Gin, open it and fill your glass:");
                 System.out.print("\n\n"); 
-                Game.slowPrint("(a): After one glass the spirits are awakened");
+                Game.slowPrint("(a): After one glass the spirits are awakened.");
                 System.out.print("\n");
                 Game.slowPrint("(b): The day was hard and the sorrow was great. You fill and empty the glass several times.");
                 System.out.print("\n");
@@ -75,7 +76,8 @@ public class Story {
                 String choice = sc.nextLine().toLowerCase();
             
                 switch (choice) {
-                    case "a": 
+                    case "a":
+                        traitorPoints++; 
                         story = 4;
                     break;
 
@@ -105,10 +107,12 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
+                        traitorPoints++;
                         story = 4;
                     break;
 
                     case "b": 
+                        traitorPoints++;        
                         story = 6;
                     break;
                 }
@@ -128,12 +132,14 @@ public class Story {
                 String choice = sc.nextLine();
 
                 switch (choice) {
-                    case "a": 
+                    case "a":
+                        partyPoints++; 
                         decisionA = true;
                         story = 8;
                     break;
 
                     case "b": 
+                        traitorPoints++;
                         story = 7;
                     break;
                 }
@@ -152,10 +158,12 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
+                        traitorPoints++;
                         story = 4;
                     break;
 
                     case "b": 
+                        traitorPoints++;
                         story = 6;
                     break;
                 }
@@ -233,6 +241,7 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
+                        partyPoints++;
                         story = 8;
                     break;
 
@@ -271,10 +280,12 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
+                        partyPoints++;
                         story = 11;
                     break;
 
-                    case "b": 
+                    case "b":
+                        traitorPoints++; 
                         story = 9;
                     break;
                 }
@@ -299,10 +310,12 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
+                        partyPoints++;
                         story = 11;
                     break;
 
                     case "b": 
+                        traitorPoints++;
                         story = 10;
                     break;
                 }
@@ -324,11 +337,13 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
+                        traitorPoints++;
                         decisionA = true;
                         story = 11;
                     break;
 
                     case "b": 
+                        partyPoints++;
                         decisionB = true;
                         story = 11;
                     break;
@@ -355,10 +370,12 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
+                        traitorPoints++;
                         story = 12;
                     break;
 
                     case "b": 
+                        partyPoints++;
                         decisionB = true;
                         story = 14;
                     break;
@@ -380,11 +397,13 @@ public class Story {
                 String choice = sc.nextLine();
 
                 switch (choice) {
-                    case "a": 
+                    case "a":
+                        partyPoints++; 
                         story = 14;
                     break;
 
                     case "b": 
+                        traitorPoints++;
                         story = 13;
                     break;
                 }
@@ -444,6 +463,7 @@ public class Story {
                     break;
 
                     case "b": 
+                        partyPoints++;
                         story = 15;
                     break;
                 }
@@ -467,11 +487,13 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                    	 decisionB = true;
+                        traitorPoints++;
+                    	decisionB = true;
                         story = 17;
                     break;
 
                     case "b": 
+                        traitorPoints++;
                         story = 16;
                     break;
                 }
@@ -494,11 +516,13 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        traitorPoints++;
                         decisionA = true;
                         story = 17;
                     break;
 
                     case "b": 
+                        partyPoints++;
                         story = 17;
                     break;
                 }
@@ -527,6 +551,7 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        traitorPoints++;
                     	decisionA = true;
                         story = 18;
 
@@ -569,10 +594,12 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        traitorPoints++;
                         story = 19;
                     break;
 
                     case "b": 
+                        partyPoints++;
                         story = 20;
                     break;
                 }
@@ -668,11 +695,13 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        partyPoints++;
                         decisionA = true;
                         story = 21;
                     break;
 
                     case "b": 
+                        traitorPoints++;
                     	decisionB = true;
                         story = 21;
                     break;
@@ -726,11 +755,13 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        partyPoints++;
                         decisionA = true;
                         story = 22;
                     break;
 
-                    case "b": 
+                    case "b":
+                        traitorPoints++; 
                     	decisionB = true;
                         story = 22;
                     break;
@@ -828,10 +859,12 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        traitorPoints++;
                         story = 23;
                     break;
 
                     case "b": 
+                        partyPoints++;
                     	decisionA = true;
                         story = 25;
                     break;
@@ -918,11 +951,13 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        traitorPoints++;
                     	decisionA =true;
                         story = 26;
                     break;
 
                     case "b":
+                        traitorPoints++;
                     	decisionB = true;
                         story = 26;
                     break;
@@ -987,10 +1022,12 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        partyPoints++;
                         story = 27;
                     break;
 
                     case "b": 
+                        traitorPoints++;
                     	decisionB = true;
                         story = 28;
                     break;
@@ -1060,11 +1097,13 @@ public class Story {
                 String choice = sc.nextLine();
 
                 switch (choice) {
-                    case "a":                        
+                    case "a":  
+                        partyPoints++;                      
                         story = 29;
                     break;
 
                     case "b": 
+                        traitorPoints++;
                         story = 30;
                     break;
                 }
@@ -1166,11 +1205,13 @@ public class Story {
                 String choice = sc.nextLine();
 
                 switch (choice) {
-                    case "a":                       
+                    case "a":  
+                        traitorPoints++;                     
                         story = 33;
                     break;
 
-                    case "b":                     	
+                    case "b":           
+                        partyPoints++;          	
                         story = 31;
                     break;
                 }
@@ -1281,11 +1322,13 @@ public class Story {
                 String choice = sc.nextLine();
 
                 switch (choice) {
-                    case "a":                    	
+                    case "a":    
+                        traitorPoints++;                	
                         story = 34;
                     break;
 
                     case "b": 
+                        partyPoints++;
                         story = 36;
                     break;
                 }
@@ -1462,6 +1505,7 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        healthPoints = healthPoints - 5;
                         story = 37;
                     break;
 
@@ -1501,6 +1545,7 @@ public class Story {
 
                 switch (choice) {
                     case "a":
+                        healthPoints = healthPoints - 10;
                     	decisionA = true;
                         story = 39;
                     break;
@@ -1530,6 +1575,7 @@ public class Story {
                     break;
 
                     case "b":
+                        healthPoints = healthPoints - 5;
                     	decisionC = true;
                         story = 39;
                     break;
@@ -1590,6 +1636,7 @@ public class Story {
                     break;
 
                     case "b":
+                        healthPoints = healthPoints - 10;
                         story = 41;
                     break;
                 }
