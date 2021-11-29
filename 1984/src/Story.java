@@ -54,7 +54,7 @@ public class Story {
                 System.out.print("\n");
                 System.out.println("TraitorPoints: " + traitor());               
                 System.out.print("\n");
-
+                
                 System.out.print("> ");
                 String choice = sc.nextLine().toLowerCase();
 
@@ -2060,9 +2060,9 @@ public class Story {
     if(ending == 18) {
         Endings.gameOverEightteen();
     }
-    if(traitorPoints >= 10) {
+    if(traitorPoints == 19) {
     	Endings.gameOverNineteen();
     }
     } // End start()
 } // End class
-//hallo
+
