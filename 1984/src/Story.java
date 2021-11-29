@@ -2001,19 +2001,11 @@ public class Story {
                 System.out.println("YOU LOST THE GAME!!!");            
                                              
                
-            }
-            
-    /* 		
-      		System.out.println("\nPress Enter to continue");
-            System.out.print("> ");
-            command = sc.nextLine();
-            Game.clrscr();
-            System.out.println("füge den neuen text ein");        
-    */      
-            
+            }           
+   
     //command = sc.next();
     // End main game loop
-    } while(!command.equals("exit") || traitorPoints == 10 || isGameOver == false);
+    } while(!command.equals("exit") && traitorPoints == 10 || isGameOver == false);
     if(ending == 1) {
         Endings.gameOverOne();
     }
@@ -2064,12 +2056,12 @@ public class Story {
     }
     if(ending == 17) {
         Endings.gameOverSeventeen();
-        }
+    }
     if(ending == 18) {
         Endings.gameOverEightteen();
     }
     if(traitorPoints >= 10) {
-        Endings.gameOverNineteen();
+    	Endings.gameOverNineteen();
     }
     } // End start()
 } // End class
