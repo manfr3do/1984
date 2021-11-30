@@ -58,11 +58,11 @@ public class Story {
                 Game.clrscr();
             
                 // First story            
-                Game.fastPrint("You stand at the bottom of the stairs to get in your apartment.");
+                System.out.println("You stand at the bottom of the stairs to get in your apartment.");
                 System.out.print("\n\n"); 
-                Game.slowPrint("(a): Despite your discomfort, you silently begin the climb to the 7th floor.");
+                System.out.println("(a): Despite your discomfort, you silently begin the climb to the 7th floor.");
                 System.out.print("\n");
-                Game.slowPrint("(b): You loudly rumble about the bad situation these days and the lack of electricity.");
+                System.out.println("(b): You loudly rumble about the bad situation these days and the lack of electricity.");
                 System.out.print("\n");
                 System.out.println("TraitorPoints: " + traitor());               
                 System.out.print("\n");
@@ -86,13 +86,13 @@ public class Story {
             }
             while(story == 2 && traitorPoints <= 10) {
                 Game.clrscr();
-                Game.fastPrint("After a while, several breaks and a lot of sweat, you step into your flat.");
+                System.out.println("After a while, several breaks and a lot of sweat, you step into your flat.");
                 System.out.print("\n\n"); 
-                Game.slowPrint("In your apartment you feel thirsty. You take the bottle of Victory Gin, open it and fill your glass:");
+                System.out.println("In your apartment you feel thirsty. You take the bottle of Victory Gin, open it and fill your glass:");
                 System.out.print("\n\n"); 
-                Game.slowPrint("(a): After one glass the spirits are awakened.");
+                System.out.println("(a): After one glass the spirits are awakened.");
                 System.out.print("\n");
-                Game.slowPrint("(b): The day was hard and the sorrow was great. You fill and empty the glass several times.");
+                System.out.println("(b): The day was hard and the sorrow was great. You fill and empty the glass several times.");
                 System.out.print("\n");
                 System.out.println("TraitorPoints: " + traitor());              
                 System.out.print("\n");
@@ -115,16 +115,16 @@ public class Story {
             while(story == 3 && traitorPoints <= 10) {   
                 Game.clrscr();
                 System.out.println("-----------------------------------------------------------");
-                Game.fastPrint("Your untypical, rebellious behavior is immediately noted...");
+                System.out.println("Your untypical, rebellious behavior is immediately noted...");
                 System.out.print("\n");
                 System.out.println("-----------------------------------------------------------");
-                Game.fastPrint("In the moment you step into your flat, a noisy loud, croaking female voice pierces your ear and confronts you with your statements.");
+                System.out.println("In the moment you step into your flat, a noisy loud, croaking female voice pierces your ear and confronts you with your statements.");
                 System.out.print("\n\n"); 
-                Game.slowPrint("(a): You apologize 1000 times and refer to the hard day and your old body and illness.");
-                Game.slowPrint("Swear that you be a good member of INGSOC, and you would love BIG BROTHER.");
+                System.out.println("(a): You apologize 1000 times and refer to the hard day and your old body and illness.");
+                System.out.println("Swear that you be a good member of INGSOC, and you would love BIG BROTHER.");
                 System.out.print("\n");
-                Game.slowPrint("(b): Full annoyed about the situation and the lack of privacy you put out your shoe and throw it against the Telescreen,"); 
-                Game.slowPrint("which shattered in 10000 pieces.");
+                System.out.println("(b): Full annoyed about the situation and the lack of privacy you put out your shoe and throw it against the Telescreen,"); 
+                System.out.println("which shattered in 10000 pieces.");
                 System.out.print("\n");
                 System.out.println("TraitorPoints: " + traitor());               
                 System.out.print("\n");
@@ -146,13 +146,13 @@ public class Story {
             }   
             while(story == 4 && traitorPoints <= 10) {
                 Game.clrscr();  
-                Game.fastPrint("You go back to the living room, sit down to the place in the alcove which is invisible for the telescreen and take the diary book.");
+                System.out.println("You go back to the living room, sit down to the place in the alcove which is invisible for the telescreen and take the diary book.");
                 System.out.print("\n\n");    
-                Game.slowPrint("You are writing a diary entry when suddenly someone is knocking on the door...");
+                System.out.println("You are writing a diary entry when suddenly someone is knocking on the door...");
                 System.out.print("\n\n"); 
-                Game.slowPrint("(a): You open the door without thinking about hiding the book.");
+                System.out.println("(a): You open the door without thinking about hiding the book.");
                 System.out.print("\n"); 
-                Game.slowPrint("(b): Annoyed by the interruption, you sit still as a mouse. After a minute you hear someone step away.");
+                System.out.println("(b): Annoyed by the interruption, you sit still as a mouse. After a minute you hear someone step away.");
                 System.out.print("\n\n");
                 System.out.println("TraitorPoints: " + traitor());              
                 System.out.print("\n");
@@ -2009,7 +2009,7 @@ public class Story {
                 System.out.print("> ");
                 command = sc.nextLine();
                 Game.clrscr();
-                System.out.println("YOU LOST THE GAME!!!");            
+                Game.slowPrint("YOU LOST THE GAME!!!");            
                                              
                
             }
