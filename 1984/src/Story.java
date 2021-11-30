@@ -2015,6 +2015,7 @@ public class Story {
             }
                 
     } while(!command.equals("exit") && isGameOver == false && traitorPoints <= 10); // End main game loop
+    Game.clrscr();
     // Output several endings, depending on the users decision
     if(ending == 1) {
         Endings.gameOverOne();
