@@ -34,12 +34,12 @@ public class Story {
         }
 
     public void start() {
-        // Main game loop
-        //traitorPoints = 9;
+        // Main game loop.
+        
         do {
             // Storyline
-            while(story == 1 && traitorPoints <= 10) {
-                // Introduction            	
+            while(story == 1 && traitorPoints <= 12) {
+                // Introduction  
                 Game.fastPrint("Hello player, and welcome to the dystopian world of 1984!\n\n");
                 Game.fastPrint("You slip into the life of Winston Smith, a 39-years old, haggard," 
                     + "\nfrail, brooding and resigned man who doubts the slogans issued by the Party and it's iconic figure, Big Brother.\n");
@@ -74,18 +74,18 @@ public class Story {
                     case "a": 
                         // 1a -> 2
                         story = 2;
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                     break;
 
                     case "b":
                         // 1b -> 3                    	
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 3;
                     break;
                 }
             }
-            while(story == 2 && traitorPoints <= 10) {
-                Game.clrscr();
+            while(story == 2 && traitorPoints <= 12) {
+                Game.clrscr();                
                 System.out.println("After a while, several breaks and a lot of sweat, you step into your flat.");
                 System.out.print("\n\n"); 
                 System.out.println("In your apartment you feel thirsty. You take the bottle of Victory Gin, open it and fill your glass:");
@@ -93,8 +93,7 @@ public class Story {
                 System.out.println("(a): After one glass the spirits are awakened.");
                 System.out.print("\n");
                 System.out.println("(b): The day was hard and the sorrow was great. You fill and empty the glass several times.");
-                System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                partyPoints = 0;
                 System.out.print("\n");
                                
                 System.out.print("> ");
@@ -102,17 +101,17 @@ public class Story {
             
                 switch (choice) {
                     case "a":
-                        traitorPoints = traitorPoints + rand.nextInt(3); 
+                        traitorPoints = traitorPoints + rand.nextInt(4); 
                         story = 4;
                     break;
 
                     case "b": 
-                        traitorPoints= traitorPoints + rand.nextInt(3);
+                        traitorPoints= traitorPoints + rand.nextInt(4);
                         story = 5;
                     break;
                 }
             }
-            while(story == 3 && traitorPoints <= 10) {   
+            while(story == 3 && traitorPoints <= 12) {            	
                 Game.clrscr();
                 System.out.println("-----------------------------------------------------------");
                 System.out.println("Your untypical, rebellious behavior is immediately noted...");
@@ -126,7 +125,8 @@ public class Story {
                 System.out.println("(b): Full annoyed about the situation and the lack of privacy you put out your shoe and throw it against the Telescreen,"); 
                 System.out.println("which shattered in 10000 pieces.");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
                 
                 System.out.print("> ");
@@ -134,17 +134,17 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 4;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);        
+                        traitorPoints = traitorPoints + rand.nextInt(4);        
                         story = 6;
                     break;
                 }
             }   
-            while(story == 4 && traitorPoints <= 10) {
+            while(story == 4 && traitorPoints <= 12) {            	
                 Game.clrscr();  
                 System.out.println("You go back to the living room, sit down to the place in the alcove which is invisible for the telescreen and take the diary book.");
                 System.out.print("\n\n");    
@@ -154,7 +154,8 @@ public class Story {
                 System.out.print("\n"); 
                 System.out.println("(b): Annoyed by the interruption, you sit still as a mouse. After a minute you hear someone step away.");
                 System.out.print("\n\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -162,18 +163,18 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        partyPoints = rand.nextInt(4); 
+                        partyPoints = rand.nextInt(3); 
                         decisionA = true;
                         story = 8;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 7;
                     break;
                 }
             }
-            while(story == 5 && traitorPoints <= 10) {
+            while(story == 5 && traitorPoints <= 12) {
                 Game.clrscr();    
                 System.out.println("The alcohol makes you forget your caution.");
                 System.out.println("Swaying, you go to the living room, sit down at the table and take out the diary.");   
@@ -183,25 +184,23 @@ public class Story {
                 System.out.println("(b): You drank to much Gin and no good answer comes into your mind." 
                         + "\nYou shutter some words like it would be nothing and you don't know what it is and where it came from.");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());               
-                System.out.print("\n");
 
                 System.out.print("> ");
                 String choice = sc.nextLine();
 
                 switch (choice) {
                     case "a": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 4;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 6;
                     break;
                 }
             }
-            while(story == 4 && traitorPoints <= 10) {
+            while(story == 4 && traitorPoints <= 12) {
                 Game.clrscr();  
                 Game.fastPrint("You go back to the living room, sit down to the place in the alcove which is invisible for the telescreen and take the diary book.");
                 System.out.print("\n\n");    
@@ -213,29 +212,32 @@ public class Story {
                 System.out.print("\n\n"); 
                 System.out.println("TraitorPoints: " + traitor());               
                 System.out.print("\n");
-
+                
                 System.out.print("> ");
                 String choice = sc.nextLine();
 
                 switch (choice) {
                     case "a":
+                    	traitorPoints = traitorPoints + rand.nextInt(4);
                         decisionA = true; 
                         story = 8;
                     break;
 
-                    case "b": 
+                    case "b":
+                    	traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 7;
                     break;
                 }
             }
-            while(story == 6 && traitorPoints <= 10) {
+            while(story == 6 && traitorPoints <= 12) {
                 Game.clrscr();    
                 System.out.println("In full panic you try to think about your options...");
                 System.out.print("\n\n"); 
                 System.out.println("(a): You put on your shoes and run out of the flat, down the stairs and on the street.");
                 System.out.println("(b): You sit down at your chair after taking the gin from the kitchen. 'All is lost', you think and wait for them.");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -254,7 +256,7 @@ public class Story {
                 }
                 break;                
             }
-            while(story == 7 && traitorPoints <= 10) {
+            while(story == 7 && traitorPoints <= 12) {
                 Game.clrscr();  
                 System.out.println("After 10 minutes it knocks again.");
                 System.out.println("Angry you walk to the door and open it.");
@@ -273,7 +275,8 @@ public class Story {
                 System.out.println("(b): While you think about a good lie to tell the boy, he makes out of your grab," 
                         + "\nrun into the floor and keep screaming: \"traitor, traitor, the comrade is a traitor.\"");
                 System.out.print("\n\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -292,7 +295,7 @@ public class Story {
                 }
                 break; 
             }
-            while(story == 8 && traitorPoints <= 10) {
+            while(story == 8 && traitorPoints <= 12) {
                 Game.clrscr();
                 if(decisionA) {
                     System.out.println("Mrs Parson stands in front of you and asks for your help."
@@ -324,7 +327,8 @@ public class Story {
                 System.out.println("(b): You are tired because you had a nightmare last night and slept very bad." 
                         + "\nYou can't stay concentrate and your thoughts are at lunch. You start writing very fast. This work must be done before lunch.");
                 System.out.print("\n\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -332,17 +336,17 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                         story = 11;
                     break;
 
                     case "b":
-                        traitorPoints = traitorPoints + rand.nextInt(3); 
+                        traitorPoints = traitorPoints + rand.nextInt(4); 
                         story = 9;
                     break;
                 }
             } 
-            while(story == 9 && traitorPoints <= 10) {
+            while(story == 9 && traitorPoints <= 12) {
                 Game.clrscr();  
                 System.out.println("When finished the work you skim the new article.");
                 System.out.println("There are a few little mistakes, which you just can make out, if you have read the original article.");
@@ -360,7 +364,8 @@ public class Story {
                 System.out.println("(b): Angry and tired you say that it would be good enough for all the sheep out there." 
                         + "\nNobody would ever notice that this version was rewrite. And above all what the man thinks, who he is to decide, if his work was good or not.");
                 System.out.print("\n\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -368,17 +373,17 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                         story = 11;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 10;
                     break;
                 }
             } 
-            while(story == 10 && traitorPoints <= 10) {
+            while(story == 10 && traitorPoints <= 12) {
                 Game.clrscr();  
                 System.out.println("The man seems very surprised. With wide eyes he replies that he is from the management of the correction department. " 
                         + "\nHe asks you what the hell you think, who you are and turns around ready to leave.");     
@@ -392,7 +397,8 @@ public class Story {
                         + "\nYou had no idea who he was and of course you will fix the article right after lunch. Even if it will cost the whole night.");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -400,20 +406,20 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         decisionA = true;
                         story = 11;
                     break;
 
                     case "b": 
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                         decisionA = false;
                         decisionB = true;
                         story = 11;
                     break;
                 }
             }
-            while(story == 11 && traitorPoints <= 10) {
+            while(story == 11 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 if(decisionA) {
                     System.out.println("You put the damn article on your desk, very angry that you must continue at this task and walk in the cafeteria.");
@@ -431,7 +437,8 @@ public class Story {
                 System.out.println("(b): Happy about your finished work and that there is someone you can talk to and help you agree. ");
                 System.out.print("\n\n"); 
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -439,18 +446,18 @@ public class Story {
 
                 switch (choice) {
                     case "a": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 12;
                     break;
 
                     case "b": 
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                         decisionB = true;
                         story = 14;
                     break;
                 }
             }
-            while(story == 12 && traitorPoints <= 10) {
+            while(story == 12 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("Syme`s eyebrows climb over the roof while his underlip reach the basement." 
                         + "\nHe stammers something like you wouldn't have an idea how important this is and that you better take care what and to whom you say things like this." 
@@ -470,7 +477,8 @@ public class Story {
                         + "\nthe party and BIG BROTHER. And if he talks to anyone you would not be the only who get vaporized.");
                 System.out.print("\n\n"); 
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -478,18 +486,18 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                         decisionB = false;
                         story = 14;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 13;
                     break;
                 }
             }
-            while(story == 13 && traitorPoints <= 10) {
+            while(story == 13 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("Pale he swears that he never will tell anyone what you said and runs away." 
                         + "\nYou turn around and see it on the wall." 
@@ -505,8 +513,8 @@ public class Story {
                 System.out.print("\n"); 
                 System.out.println("(b): You know now it is the end. Your lack of control will cost you your neck this time. You raise your arms and surrender. ");
                 System.out.print("\n\n"); 
-                System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -525,7 +533,7 @@ public class Story {
                 }
             break;
             }
-            while(story == 14 && traitorPoints <= 10) {
+            while(story == 14 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 if(decisionB) {
                     System.out.println("Until Comrade Parson comes to your table you make up new words." 
@@ -545,7 +553,8 @@ public class Story {
                 System.out.println("(b): Often other bombs follow and the first was blogs away. You better stay here laying on the ground.");
                 System.out.print("\n\n"); 
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -558,13 +567,13 @@ public class Story {
                     break;
 
                     case "b": 
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                         story = 15;
                     break;
                 }
             break;
             }
-            while(story == 15 && traitorPoints <= 10) {
+            while(story == 15 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("Another bomb drops. It missed you but destroys a group of houses two hundred metres up the street." 
                         + "\nYou still lie on the ground for 5 minutes more. Then you decide to make out of the area.");
@@ -581,7 +590,8 @@ public class Story {
                         + "\nbut the barkeeper just said: \"No money, no drink!\" You buy two drinks and sit down at the table of the old.");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -589,19 +599,19 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         decisionA = false;
                     	decisionB = true;
                         story = 17;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 16;
                     break;
                 }
             }
-            while(story == 16 && traitorPoints <= 10) {
+            while(story == 16 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("The old man is happy about the drink. You ask about the time when he was young.");
                                 
@@ -614,7 +624,8 @@ public class Story {
                 System.out.println("(b): Annoyed by his nonsense you stand up and leave the bar.");
                 System.out.print("\n\n"); 
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -622,21 +633,20 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         decisionB = false;
                         decisionA = true;
                         story = 17;
                     break;
 
-                    case "b": 
-                        partyPoints = rand.nextInt(4);
+                    case "b":                         
                         decisionA = false;
                         decisionB = false;
                         story = 17;
                     break;
                 }
             }
-            while(story == 17 && traitorPoints <= 10) {
+            while(story == 17 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 if(decisionA) {
                     System.out.println("You paid seven drinks for the old but he doesn't say anything interesting." 
@@ -661,7 +671,8 @@ public class Story {
                         + "\nAfter a short talk to the owner, you turn around a leave the shop. ");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());             
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -681,7 +692,7 @@ public class Story {
                 }
                 break;
             }
-            while(story == 18 && traitorPoints <= 10) {
+            while(story == 18 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("The conversation to Mr Charrington is very interesting." 
                         + "\nHe knows a lot, even the rhyme of the bells of St. Clements." 
@@ -716,7 +727,8 @@ public class Story {
                 System.out.println("(b): walk");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());             
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -724,17 +736,17 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 19;
                     break;
 
                     case "b": 
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                         story = 20;
                     break;
                 }
             }
-            while(story == 19 && traitorPoints <= 10) {
+            while(story == 19 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("You smashed her skull in the blind alley, and have to run away. "
                 		+ "You run a few blocks and hide in a dark alley. Your heart races, has anyone seen him? "
@@ -761,7 +773,8 @@ public class Story {
                 System.out.println("(b): wait");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -780,7 +793,7 @@ public class Story {
                 }
                 break;
             }
-            while(story == 20 && traitorPoints <= 10) {
+            while(story == 20 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("Winston walks further, you turned to the right and walked heavily away, not noticing for the moment that you going in the wrong direction."
                 		+ " At any rate, one question was settled. There was no doubting any longer that the girl was spying on you. "
@@ -825,7 +838,8 @@ public class Story {
                 System.out.println("(b): ignore her and walk away");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -833,20 +847,20 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(3);
                         decisionA = true;
                         story = 21;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         decisionA = false;
                     	decisionB = true;
                         story = 21;
                     break;
                 }
             }
-            while(story == 21 && traitorPoints <= 10) {
+            while(story == 21 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 if(decisionA) {
                     System.out.println("‘You haven’t broken anything?’\n"
@@ -890,7 +904,8 @@ public class Story {
                 System.out.println("(b): \"Not now!\" You think by yourself and walk to the table");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());            
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -898,20 +913,20 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(2);
                         decisionA = true;
                         story = 22;
                     break;
 
                     case "b":
-                        traitorPoints = traitorPoints + rand.nextInt(3); 
+                        traitorPoints = traitorPoints + rand.nextInt(4); 
                         decisionA = false;
                     	decisionB = true;
                         story = 22;
                     break;
                 }
             }
-            while(story == 22 && traitorPoints <= 10) {
+            while(story == 22 && traitorPoints <= 12) {
                 Game.clrscr(); 
             if(decisionA) {
                 System.out.println("You sit down with Wilsher, you two talk.");
@@ -999,7 +1014,8 @@ public class Story {
                 System.out.println("(b): i am on my way for a walk so that i can gather new strength to do my work in the ministry of truth well.");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1007,18 +1023,18 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         story = 23;
                     break;
 
                     case "b": 
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(2);
                     	decisionA = true;
                         story = 25;
                     break;
                 }
             }            
-            while(story == 23 && traitorPoints <= 10) {
+            while(story == 23 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("the patrole lets you go. you move on towards the meeting point. "
                 		+ "Arrived at the meeting point, you wait 20 minutes, the girl does not show up. you think about what you could do.");
@@ -1030,7 +1046,8 @@ public class Story {
                 System.out.println("(b): you keep waiting");
                 System.out.print("\n\n"); 
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1048,7 +1065,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 24 && traitorPoints <= 10) {
+            while(story == 24 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("You look around, while looking around you find a blood stain on the floor. "
                 		+ "you panic. What if the blood is the girl's, maybe they got her....?");                              
@@ -1059,7 +1076,8 @@ public class Story {
                 System.out.println("(b): You hide");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1078,7 +1096,7 @@ public class Story {
                 }
                 break;
             }
-            while(story == 25 && traitorPoints <= 10) {
+            while(story == 25 && traitorPoints <= 12) {
                 Game.clrscr(); 
             if(decisionB) {    
                 System.out.println("After a few minutes of waiting, the gils shows up and you disappear together in the forrest.");
@@ -1101,7 +1119,8 @@ public class Story {
                 System.out.println("(b): Further in Forest Meeting");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1109,20 +1128,20 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                     	decisionA =true;
                         story = 26;
                     break;
 
                     case "b":
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         decisionA = false;
                     	decisionB = true;
                         story = 26;
                     break;
                 }
             }
-            while(story == 26 && traitorPoints <= 10) {
+            while(story == 26 && traitorPoints <= 12) {
             	Game.clrscr();
             if(decisionA) {             	 
                 System.out.println("It was a shabby little room, but it is enough for you tow and it is safe.");                                
@@ -1177,7 +1196,8 @@ public class Story {
                 System.out.println("(b): you take the chance ");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1185,17 +1205,17 @@ public class Story {
 
                 switch (choice) {
                     case "a":
-                        partyPoints = rand.nextInt(4);
+                        partyPoints = rand.nextInt(2);
                         story = 27;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);                    	
+                        traitorPoints = traitorPoints + rand.nextInt(4);                    	
                         story = 28;
                     break;
                 }
             }
-            while(story == 27 && traitorPoints <= 10) {
+            while(story == 27 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("You walk further down the corridor and O'Brien looks behind you, you walk further and stand in front of a T-crossing ");
                                 
@@ -1208,7 +1228,8 @@ public class Story {
                 System.out.println("(b): take the left way");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1227,7 +1248,7 @@ public class Story {
                  }
                  break;
             }
-            while(story == 28 && traitorPoints <= 10) {
+            while(story == 28 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("O'Brien writes you, his address. you thank him and go on.");
                 System.out.println("\nPress Enter to continue");
@@ -1258,7 +1279,8 @@ public class Story {
                 		+ "some kind of secret organization working against the Party, and that you are involved in it. ");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());             
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1266,19 +1288,19 @@ public class Story {
 
                 switch (choice) {
                     case "a":  
-                        partyPoints = rand.nextInt(4);                      
+                        partyPoints = rand.nextInt(2);                      
                         story = 29;
                     break;
 
                     case "b": 
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         decisionA = false;
                         decisionB = false;
                         story = 30;
                     break;
                 }
             }
-            while(story == 29 && traitorPoints <= 10) {
+            while(story == 29 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("You got scared and don't dare to ask what you wanted. O'Brien looks at you a bit questioningly, but gives you the dictionary.");
                 System.out.println("\nPress Enter to continue");
@@ -1291,9 +1313,7 @@ public class Story {
                 System.out.println("(a): I have another question ");
                 System.out.print("\n"); 
                 System.out.println("(b): no that's all ");
-                System.out.print("\n\n");
-                System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.print("\n\n");              
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1312,7 +1332,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 30 && traitorPoints <= 10) {    
+            while(story == 30 && traitorPoints <= 12) {    
             	Game.clrscr();
             if(decisionA) { 
                 System.out.println("We want to join it and work for it. We are enemies of the Party. We disbelieve in the principles of INGSOC. We are thought criminals. "
@@ -1375,7 +1395,8 @@ public class Story {
                 System.out.println("(b): Don´t read the book ");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1383,19 +1404,19 @@ public class Story {
 
                 switch (choice) {
                     case "a":  
-                        traitorPoints = traitorPoints + rand.nextInt(3);
+                        traitorPoints = traitorPoints + rand.nextInt(4);
                         decisionA = false;
                         decisionB = false;
                         story = 33;
                     break;
 
                     case "b":           
-                        partyPoints = rand.nextInt(4);          	
+                        partyPoints = rand.nextInt(2);          	
                         story = 31;
                     break;
                 }
             }
-            while(story == 31 && traitorPoints <= 10) {
+            while(story == 31 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("Are you sure about this? that makes you a traitor. There will be no going back. "
                 		+ "But actually, it's too late anyway, you own the book, and no one will believe you didn't want to read it.");                            
@@ -1423,7 +1444,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 32 && traitorPoints <= 10) {
+            while(story == 32 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("AYou decide not to, maybe everything I'm doing here is wrong. You look over at Julia. You think for a moment.");                            
                               
@@ -1433,7 +1454,8 @@ public class Story {
                 System.out.println("(b): Just go home like nothing ever happened ");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());               
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1452,7 +1474,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 33 && traitorPoints <= 10) {    
+            while(story == 33 && traitorPoints <= 12) {    
             	Game.clrscr();
             if(decisionA) {
             	System.out.println("You and Julia read the book, while you read the book you both fall asleep one after the other.");
@@ -1502,29 +1524,31 @@ public class Story {
                 System.out.println("(a): Try to escape ");
                 System.out.print("\n"); 
                 System.out.println("(b): Follow the telescreen's instructions");
-                System.out.print("\n\n");
+                System.out.print("\n\n"); 
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
                 System.out.print("\n");
+                
 
                 System.out.print("> ");
                 String choice = sc.nextLine();
 
                 switch (choice) {
                     case "a":    
-                        traitorPoints = traitorPoints + rand.nextInt(3);                	
+                        traitorPoints = traitorPoints + rand.nextInt(4);                	
                         story = 34;
                     break;
 
                     case "b": 
-                        partyPoints = partyPoints + rand.nextInt(4);
+                        partyPoints = partyPoints + rand.nextInt();
                         decisionA = false;
                         decisionB = false;
                         story = 36;
                     break;
                 }
             }
-            while(story == 34 && traitorPoints <= 10) {
+            while(story == 34 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("In a short jerk you jump up from the floor and run to the window, tear it open and climb onto the roof.");
                 System.out.println("\nPress Enter to continue");
@@ -1539,7 +1563,8 @@ public class Story {
                 System.out.println("(b):How you should climb to the roof? It´s better to climb down ");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());             
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1556,7 +1581,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 35 && traitorPoints <= 10) {
+            while(story == 35 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("You climb towards the roof ridge, the higher you get the more you see that the whole house is turned upside down.");
                 System.out.println("\nPress Enter to continue");
@@ -1572,7 +1597,8 @@ public class Story {
                 System.out.println("(b): Left");
                 System.out.print("\n\n");
                 System.out.print("\n");
-                System.out.println("TraitorPoints: " + traitor());              
+                System.out.println("TraitorPoints: " + traitor());
+                partyPoints = 0;
                 System.out.print("\n");
 
                 System.out.print("> ");
@@ -1591,7 +1617,7 @@ public class Story {
                 }
                 break;
             }
-            while(story == 36 && traitorPoints <= 10) {
+            while(story == 36 && traitorPoints <= 12) {
             	Game.clrscr();
             if(decisionB) {                
                 System.out.println("you climb from the roof into the courtyard.\n"
@@ -1711,7 +1737,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 37 && traitorPoints <= 10) {
+            while(story == 37 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("Winston... Why?\n"
                 		+ "I don't want to hurt you.\n");
@@ -1755,7 +1781,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 38 && traitorPoints <= 10) {
+            while(story == 38 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("Okay, that's right.... but do you mean what you say, or do you just say it?");
                
@@ -1785,7 +1811,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 39 && traitorPoints <= 10) {
+            while(story == 39 && traitorPoints <= 12) {
                 Game.clrscr(); 
             if(decisionA) {
             	 System.out.println("This is not what O'Brien wanted to hear");
@@ -1845,7 +1871,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 40 && traitorPoints <= 10) {
+            while(story == 40 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("this is what we like to hear");
                 System.out.println("\nPress Enter to continue");
@@ -1881,7 +1907,7 @@ public class Story {
                 }
                 break;
             }
-            while(story == 41 && traitorPoints <= 10) {
+            while(story == 41 && traitorPoints <= 12) {
                 Game.clrscr(); 
                 System.out.println("O'Brien grabs a scalpel");
                 System.out.println("\nPress Enter to continue");
@@ -1921,7 +1947,7 @@ public class Story {
                     break;
                 }
             }
-            while(story == 42 && traitorPoints <= 10) {
+            while(story == 42 && traitorPoints <= 12) {
                 Game.clrscr();
             if(decisionA) {            	            
                 System.out.println("I think we got it Winston");
@@ -2014,7 +2040,7 @@ public class Story {
                
             }
                 
-    } while(!command.equals("exit") && isGameOver == false && traitorPoints <= 10); // End main game loop
+    } while(!command.equals("exit") && isGameOver == false && traitorPoints <= 12); // End main game loop
     Game.clrscr();
     // Output several endings, depending on the users decision
     if(ending == 1) {
@@ -2072,7 +2098,7 @@ public class Story {
         Endings.gameOverEightteen();
     }
     // Output another ending if the player has too much traitor points
-    if(traitorPoints >= 10) {
+    if(traitorPoints >= 12) {
         isGameOver = true;
         Endings.gameOverNineteen();
     }
