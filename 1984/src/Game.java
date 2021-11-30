@@ -1,5 +1,5 @@
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.io.IOException; // If no input device is connected, throw error
+import java.util.concurrent.TimeUnit; // Time unit for fast/slowprint method
 
 // The game class has several features for the game
 public class Game {
