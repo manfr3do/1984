@@ -1,0 +1,347 @@
+PART 2 
+Story :                     A figure in blue overalls was coming down
+                            the pavement, not ten metres away. It was the girl from the
+                            Fiction Department, the girl with dark hair. The light was
+                            failing, but there was no difficulty in recognizing her. She
+                            looked him straight in the face, then walked quickly on as
+                            though she had not seen him.
+                            She must have followed him here. 
+                            Maybe she is a agent of the Thought Police, or simply an amateur spy
+                            actuated by officiousness, hardly mattered. It was enough
+                            that she was watching him. Probably she had seen him go
+                            into the pub as well.
+                            Then the spasm passed, leaving a dull ache behind.
+                            for several seconds wondering vaguely what to do, then
+                            turned round and began to retrace his steps. As he turned
+                            it occurred to him that the girl had only passed him three
+                            minutes ago and that by running he could probably catch
+                            up with her. He could keep on her track till they were in
+                            some quiet place, and then smash her skull in with a cobblestone.
+                            The piece of glass in his pocket would be heavy
+                            enough for the job.
+
+<<<Question:                For a few seconds Winston was too paralysed to move. should Winston 
+                            smash her skull 
+                            with the pice of glas in a blind alley, or should he walk futher?
+                            (Smash/Walk)   
+
+SSSSSmash 1 traitorpoint :  He smashed her skull in the blind alley, Winston have to run away. He 
+                            run 
+                            a few blocks
+                            and hide in a dark alley. his heart races, has anyone seen him?
+                            when the thought police find the woman, it's over. 
+ 
+            SSSSQuestion :  Winston has wait a bit, he should walk home.
+                            (You have to go home)
+                            While you go home, the dead women was found by the thought police...
+                            they found a piece of glass near the dead body, and asked people in the area if they had seen anything. They also question Mr. Charrington, who recognizes the piece of glass and puts them on your trail.
+ 
+            SSSSQuestion:   Winston had to decide, should he try to leave the city or should he      
+                            wait and see what happens. (Leave/Wait)
+
+            SSSSLeave :     Winston try to leave London, he tries to escape by train in a 
+                            risky                   
+                            action during the night. The police are standing at the railroad track, your ID is checked.
+                            You are caught, the thought police arrest you.
+
+            SSSSWait :      Winston is sitting at home, he has beads of sweat on his forehead, they  
+                            could show up    
+                            here at any time. winstons tries to burn his diary... there is a knock at the door... knock knock thoughts police, open the door, you are under arrest. 
+
+WWWWWwalk 1 ComformPoint :  Winston walks futher, he turned to the right and walked heavily away, not
+                            noticing for the moment that he was going in the wrong
+                            direction. At any rate, one question was settled. There was
+                            no doubting any longer that the girl was spying on him. 
+                            He thought also of hurrying to the Community Centre and
+                            staying there till the place closed, so as to establish a partial
+                            alibi for the evening. But that too was impossible. A deadly
+                            lassitude had taken hold of him. All he wanted was to get
+                            home quickly and then sit down and be quiet.
+                            .
+                            .
+                            .
+                            You´re home again, you went into the kitchen and swallow nearly
+                            a teacupful of Victory Gin. You went to the tabel and took the diary out of the drawer, but you did not open it, you only stare at the cover of the book and trying without succes to shut the voice out if his consciousness.
+                            .
+                            .
+                            .
+                            It was the middle of the morning, and Winston had left the cubicle to go 
+                            to the lavatory.
+                            A solitary figure was coming towards him from the other end of the long, brightly-lit corridor. It was the girl with
+                            dark hair. Four days had gone past since the evening when
+                            he had run into her outside the junk-shop. As she came
+                            nearer he saw that her right arm was in a sling, not noticeable at a distance because it was of the same colour as her
+                            overalls. Probably she had crushed her hand while swinging round one of the big kaleidoscopes on which the plots
+                            of novels were ‘roughed in’. It was a common accident in the
+                            Fiction Department.
+                            They were perhaps four metres apart when the girl stumbled and fell almost flat on her face. A sharp cry of pain was
+                            wrung out of her. She must have fallen right on the injured arm.
+                            ...In front of
+                            him was an enemy who was trying to kill him: in front of
+                            him, also, was a human creature, in pain and perhaps with
+                            a broken bone.
+
+<<<<Question :              Would Winston help her up or go futher?
+                            (Help/Futher)
+
+HHHHHelp 1 Conformpoint:    ‘You haven’t broken anything?’
+                            ‘No, I’m all right. It hurt for a moment, that’s all.’
+                            She held out her free hand to him, and he helped her up.
+                            She had regained some of her colour, and appeared very
+                            much better.
+                            ‘It’s nothing,’ she repeated shortly. ‘I only gave my wrist a
+                            bit of a bang. Thanks, comrade!’
+                            And with that she walked on in the direction in which
+                            she had been going, as briskly as though it had really been
+                            nothing. in the two or three seconds while he was helping her up
+                            the girl had slipped something into his hand. She gives you a fragment of paper.
+
+FFFFFuther 1 Traitorpoint : The dark haired girls lies on the ground, her face contorts in pain.
+                            you walk down the brightly-lit corridor as if nothing had happened. you go back to your to your cubical. There ist a fragment of paper on your tabel.
+
+                            //Egal welche Entscheidung, die story verläuft gleich weiter( lediglich für traitor- oder conformpoints)
+
+Story                       you sit down at your desk and unfold the paper.
+                            On it was written, in a large unformed handwriting:
+                            I LOVE YOU.
+                            For the rest of the morning it was very difficult to work.
+                            .
+                            .
+                            .
+                            You´re home again after work, and in your bed, in the darkness, where you were safe, even from the telescreen so long as you kept silent—than 
+                            he was able to think continuously.
+                            It was a physical problem that had to be solved: how to
+                            get in touch with the girl and arrange a meeting.
+                            You decide to speak with her in the canteen.
+                            .
+                            .
+                            .
+                            a few das later the girl is sitting alone at a table in the canteen.
+                            You ty to get over, perhaps three meters away, a voice behind you called, 'Smith', it was Wilsher.
+<<<<Question :              Do you react or do you go to the table? (React/Go the the table)
+
+GGGGGo 1 Traitor point :    You sit down at the table with the girl, In a low murmur you begin
+                            speaking. Neither of them looked up; steadily they spooned
+                            the watery stuff into their mouths, and between spoonfuls
+                            exchanged the few necessary words in low expressionless
+                            voices.
+                            ‘What time do you leave work?’
+                            ‘Eighteen-thirty.’
+                            ‘Where can we meet?’
+                            ‘Victory Square, near the monument.’
+                            ‘It’s full of telescreens.’
+                            ‘It doesn’t matter if there’s a crowd.’
+                            ‘Any signal?’
+                            ‘No. Don’t come up to me until you see me among a lot
+                             of people. And don’t look at me. Just keep somewhere near
+                             me.’
+                            ‘What time?’
+                            ‘Nineteen hours.’
+                            ‘All right.’
+
+RRRReact 1 Conform point :  you sit down with Wilsher, you two talk.
+                            The next day, you try to get to the canteen early to sit at her table.
+                            she is there and you sit down at her table.
+                            In a low murmur you begin
+                            speaking. Neither of them looked up; steadily they spooned
+                            the watery stuff into their mouths, and between spoonfuls
+                            exchanged the few necessary words in low expressionless
+                            voices.
+                            ‘What time do you leave work?’
+                            ‘Eighteen-thirty.’
+                            ‘Where can we meet?’
+                            ‘Victory Square, near the monument.’
+                            ‘It’s full of telescreens.’
+                            ‘It doesn’t matter if there’s a crowd.’
+                            ‘Any signal?’
+                            ‘No. Don’t come up to me until you see me among a lot
+                             of people. And don’t look at me. Just keep somewhere near
+                             me.’
+                            ‘What time?’
+                            ‘Nineteen hours.’
+                            ‘All right.’
+
+Story :                     You met at the Victory square, you both speaking 
+                            in the same expressionless voice as befor.
+                            you arrange to meet in the forest.
+                            .‘Can you hear me?’
+                            ‘Yes.’
+                            ‘Can you get Sunday afternoon off?’
+                            ‘Yes.’
+                            ‘Then listen carefully. You’ll have to remember this. Go to Paddington Station——’
+                            ‘Yes.’
+                            ‘You turn left, then right, then left again. And the gate’s got no top bar.’
+                            ‘Yes. What time?’
+                            ‘About fifteen. You may have to wait. I’ll get there by another way. Are you sure you remember everything?’
+                            ‘Yes.’
+                            ‘Then get away from me as quick as you can.’   .
+                            you arrange to meet in the forest.
+                            
+Story :                     The way into the forest is difficult and        
+                            surrounded by many dangers. Patrols of thought police controlled the railroad climb.
+
+<<<<<Question :             When you get off the train, you run into a patrol 
+                            of thought police, you are eyed skeptically.
+                            You are asked where you want to go.
+                            you start sweating and have to come up with a spontaneous excuse.
+answer:                     (the weather is good and you want to build up 
+                            your fitness so that you are ready when the enemy attacks./i am on my way for a walk so that i can gather new strength to do my work in the ministry of truth well.)
+
+Sport 1 Traitorpoint:       the patolie lets you go. you move on towards the 
+                            meeting point.
+                            Arrived at the meeting point, you wait 20 minutes, the girl does not show up.
+                            you think about what you could do.
+answer:                     (you could look around/you keep waiting). 
+
+Sport,Look 1 Traitorpoint:        You look around, while looking around you find a 
+                            blood stain on the floor. you panic. What if the blood is the girl's, maybe they got her....?      
+                            (Out of panic you run away/You hide)
+
+Sport,Run:                  As you run around a corner, you get hit on the    
+                            head......
+                            You wake up but you can't see, they put a bag over your head. You ask if someone can hear you. BANG
+                            The Tought police didn't believe your excuse and chased you. They intercepted you, knocked you down and executed you. 
+
+Sport,hide:                 you hide behind a bush. Suddenly you feel a thud  
+                            on your head.
+                            You wake up but you can't see, they put a bag over your head. You ask if someone can hear you. BANG
+                            The Tought police didn't believe your excuse and chased you. They intercepted you, knocked you down and executed you. 
+    
+Walk 1 party point:         The tought police let you go, you go to the 
+                            meeting point and wait a bit, the girl shows up and you disappear together in the forest.
+
+Story:                      After the first meeting in the forest, you find 
+                            each other and slide straight into an illicit relationship. Her name is Julia. After a few meetings in the forest you realize that you can not always meet here, you are looking for a new shelter.
+
+<<<<<Question:              Mr.Charrington comes to your mind. you could rent 
+                            the small room above his store.(Rent Room/Further in Forest Meeting)
+
+Forest 1 Traitorpoint:      You meet again in the forest. On 
+ (Normaler Story verlauf)   the way into the 
+                            forest, you had the feeling that you were being followed, but you couldn't see anyone. Julian had the same feeling. You decide that this meeting point is too risky and rent the room above Mr. Charrington's store. (Normaler Story verlauf weiter)
+
+Rent 1 traitorpoint = 
+Normale Story:              It was a shabby little room, but it is enough   
+                            for you tow and it is safe.
+                            Through the room you can meet 6 - 7 times a month and live out your love you get to know each other well and at some point you both realize that you want more than just to work against the party through love, you want to join the rebellion against the party. The question is how to do that.
+                            .... 
+                            you don't even know if the brotherhood really exists
+                            ....
+                            The only person you can think of who could make a connection is O'brein. You don't even really know him.
+                            ....
+                            It had happend at last. The expected message had come.
+                            All your life, it seemed to him, he had been waiting for his happen.
+                            He was walking down the long corridor at the Ministry and he was almost at the spot where Julia had slipped
+                            the note into his hand when he became aware that someone larger than himself was walking just behind him. The
+                            person, whoever it was, gave a small cough, evidently as a
+                            prelude to speaking. You stopped abruptly and turned.
+                            It was O’Brien.
+
+<<<<<Question:              O'brian was part of the inner party, he approaches you about your work and asks 
+                            if you are interested in the new dictionary edition of newspeak and whether you want to pick them up at his house.               
+answer                      (You become suspicious and decline with thanks./you take the chance)
+
+decline:                    You walk further down the corridor and O'brein looks behind you, you walk       
+                            further and stand in front of a T-crossing (right/left).
+
+decline,right:              You go further down the corridor. You hear footsteps    
+                            behind you, or are they in front of you? You speed up and your heart races. 
+                            Suddenly the thought police appears in front of you.
+                            Your mistrust was justified, it is a trap. 
+                            The thought police grab you and drag you to the basement, when they drag you into a room O'brein s sitting in the room and smiling at you. 
+                            "Gotcha Smith"...
+                            You have been monitored by O'brain all this time and you are vaporized.
+
+decline,left:               You go further down the corridor. You hear footsteps    
+                            behind you, or are they in front of you? You speed up and your heart races. 
+                            Suddenly the thought police appears in front of you.
+                            Your mistrust was justified, it is a trap. 
+                            The thought police grab you and drag you to the basement, when they drag you into a room O'brein s sitting in the room and smiling at you. 
+                            "Gotcha Smith"...
+                            You have been monitored by O'brein all this time and you are vaporized.
+
+Take your chance:           
+(normaler Story verlauf)    O'brein writes you his address. you thank him and go on. After much             
+                            deliberation, you and Julia decide to go to O'Brain and ask him about the brotherhood.
+                            ....
+                            The room they were Standing in was long-shaped and softly lit.  The telescreen was dimmed to a low murmur; the
+                            richness of the dark-blue carpet gave one the impression of
+                            treading on velvet. At the far end of the room O’Brien was
+                            sitting at a table under a green-shaded lamp, with a mass of
+                            papers on either side of him.
+
+<<<<<Question:               With his characteristic gesture O’Brien resettled his spectacles on his nose.
+                            ‘Shall I say it, or will you?’ he said.
+                            ‘I will say it,’ said Winston promptly. ‘That thing is really
+                            turned off?’
+                            ‘Yes, everything is turned off. We are alone.’
+                            ‘We have come here because——’
+answer:                     (we wanted to pick up the dictionary/
+                            We believe that there is some kind of conspiracy, some
+                            kind of secret organization working against the Party, and
+                            that you are involved in it.)
+
+dictionary 1 partypoint:    You got scared and don't dare to ask what you     
+                            wanted. O'briewn looks at you a   
+                            bit questioningly, but gives you the dictionary.
+                            ....
+                            O'Brien looks at you pithily and asks again more intensely " is that all, or do you want to ask something else?"
+                            (I have a nother question/ no that's all)                    
+
+dictionary,that's all:      you say thank you and leave the house.
+                            after a few days, you sit at home and wonder why O'brein asked so explicitly if you have any other questions....
+                            Maybe he was getting at something else.
+                            There is no other possibility, O'brein must have meant the brotherhood.
+                            you decide to go to O'brein again and ask him about the brotherhood.
+                            ( story verläuft normal weiter)
+
+We belive,nother question,
+story läuft weiter:         You ask O'brein about the Brotherhood.
+                            We want to join it and work for it.
+                            We are enemies of the Party. We disbelieve in the principles
+                            of Ingsoc. We are thought-criminals. We are also adulterers. I tell you this because we want to put ourselves at your
+                            mercy. If you want us to incriminate ourselves in any other way, we are ready.’
+                            ....
+                            O'brein looks calm and sits down. In a longer conversation, he tells you about the whole rebellion. It really exists,
+                            and you are now a part of it!
+                            You will even receive Goldstein's book within the next few weeks. 
+                            A person will give it to you in public in a briefcase, just wait for the sign.
+                            ....
+                            after you get the briefcase, just like O'brein said you would, you arrange to meet julia in the little room through mr. charrington's store.
+                            
+<<<<<Question:              It is time to read the book.
+                            Goldstein's book.
+                            (Read the book/don't read the book)
+
+Answer, don't 1 pp:         Are you shure about this, that makes you a        
+                            traitor, there will be no going back. But actually it's too late anyway, you own the book and no one will believe you didn't want to read it.
+                            (Read the book/put the book back in the bag)     
+
+put the book back:          You decide not to, maybe everything I'm doing     
+                            here is wrong. You look over at Julia. 
+                            You think for a moment. 
+                            (should I stay/ or just go home like nothing ever happened).
+
+back/Stay:                  You look over at Julia for a while and then fall 
+                            asleep.(normaler Story verlauf)
+
+back/go home:               You decide to go home. While Julia is sleeping, 
+                            you secretly pack your things and leave.
+                            ....
+                            as you go home you think about the things you have done. While you are walking down the street in your mind, you don't notice that polozei is following you. As you turn into an alley, a bag is pulled over your head and you feel a thud on your head.(wachst in der Zelle wieder auf.)
+
+Read the Book:              You and julia read the book, while you read the  
+                            book you both fall asleep one after the other.
+
+Story:                      When you woke up with the sensation of having 
+                            slept for a long time, but a glance at the old-fashioned clock told him that it was only twenty-thirty. You lay dozing for a while.
+                            ....
+                            When Julia wakes up, you talk about that again. You didn't quite read it, julia even fell asleep before.
+                            ....
+                            While julia and you are talking, you came to the point that you're the dead.
+                            ‘We are the dead,’ you say.
+                            ‘We are the dead,’ echoed Julia dutifully.
+                            ‘You are the dead,’ say an iron voice behind you.
+                            They sprang apart. You entrails seemed to have turned into ice.
+                            ‘You are the dead,’ repeated the iron voice.
+                            ..../ (Seite 279 e-BOOOK)
